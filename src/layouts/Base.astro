@@ -1,0 +1,71 @@
+---
+import '@fontsource-variable/noto-sans-georgian/wght.css';
+import '@fontsource-variable/space-grotesk/wght.css';
+import georgianFont from '@fontsource-variable/noto-sans-georgian/files/noto-sans-georgian-georgian-wght-normal.woff2?url';
+import '../styles/global.css';
+import { SITE } from '../data/site';
+import { BASE } from '../data/places';
+import { business, website } from '../data/schema';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Page-specific JSON-LD nodes, merged into one @graph with the business + website nodes. */
+  schema?: Record<string, unknown>[];
+  /** Coordinates for geo meta tags (defaults to the office). */
+  geo?: [number, number] | null;
+  geoName?: string;
+  noindex?: boolean;
+}
+
+const {
+  title = SITE.title,
+  description = SITE.description,
+  schema = [],
+  geo = BASE.geo,
+  geoName = SITE.address.locality,
+  noindex = false,
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = new URL('/og.png', Astro.site).href;
+const jsonLd = { '@context': 'https://schema.org', '@graph': [business(), website(), ...schema] };
+---
+
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="theme-color" content="#141a3a" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href={georgianFont} as="font" type="font/woff2" crossorigin />
+
+    <meta name="geo.region" content="GE-MM" />
+    <meta name="geo.placename" content={geoName} />
+    {geo && <meta name="geo.position" content={`${geo[0]};${geo[1]}`} />}
+    {geo && <meta name="ICBM" content={`${geo[0]}, ${geo[1]}`} />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ka_GE" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

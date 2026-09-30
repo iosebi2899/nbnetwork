@@ -1,0 +1,116 @@
+---
+import { SERVICES } from '../data/site';
+
+interface Props {
+  title?: string;
+}
+const { title = 'ჩვენ გთავაზობთ' } = Astro.props;
+---
+
+<section id="education" class="services anchor" aria-labelledby="services-title">
+  <div class="container inner">
+    <div class="section-head">
+      <span class="eyebrow">სერვისი</span>
+      <h2 id="services-title" class="h2">{title}</h2>
+    </div>
+    <div class="grid">
+      {
+        SERVICES.map((s, i) => (
+          <article class="card">
+            <div class="top">
+              <span class="index">{String(i + 1).padStart(2, '0')}</span>
+              <span class="pill">24/7</span>
+            </div>
+            <h3>{s.title}</h3>
+            <ul>
+              {s.items.map((item) => (
+                <li>
+                  <span class="check" aria-hidden="true">✓</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .services {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .inner {
+    padding: var(--sec-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--bg);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .index {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .pill {
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text-2);
+  }
+  li {
+    display: flex;
+    gap: 10px;
+  }
+  .check {
+    color: var(--magenta);
+    font-weight: 700;
+  }
+</style>

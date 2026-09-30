@@ -1,0 +1,193 @@
+---
+import Logo from './Logo.astro';
+import { NAV_LINKS, SITE } from '../data/site';
+
+interface Props {
+  /** True on the home page: section links become in-page anchors. */
+  home?: boolean;
+}
+
+const { home = false } = Astro.props;
+const path = Astro.url.pathname;
+const links = NAV_LINKS.map((l) =>
+  'id' in l
+    ? { label: l.label, href: home ? `#${l.id}` : `/#${l.id}`, spy: home ? l.id : undefined, current: false }
+    : { label: l.label, href: l.href, spy: undefined, current: path.startsWith(l.href) },
+);
+---
+
+<header class="header" data-header>
+  <div class="bar">
+    <a href={home ? '#top' : '/'} class="brand" aria-label={`${SITE.name} — მთავარი`}>
+      <Logo />
+      <span class="wordmark"><span class="nb">nb</span><span class="net">networks</span></span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="მთავარი ნავიგაცია">
+      {
+        links.map((l) => (
+          <a href={l.href} data-nav={l.spy} aria-current={l.current ? 'page' : undefined}>
+            {l.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <a href={`tel:${SITE.phone}`} class="call">
+      <span class="call-icon" aria-hidden="true">☏</span><span>{SITE.phoneDisplay}</span>
+    </a>
+
+    <button
+      type="button"
+      class="burger"
+      aria-label="მენიუ"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      data-menu-toggle
+    >
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav id="mobile-menu" class="nav-mobile" aria-label="მობილური ნავიგაცია" hidden>
+    {links.map((l) => <a href={l.href}>{l.label}</a>)}
+  </nav>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--navy);
+    margin-right: auto;
+  }
+  .brand:hover {
+    color: var(--navy);
+  }
+  .wordmark {
+    font-family: var(--font-display);
+    font-size: 19px;
+    letter-spacing: -0.4px;
+    line-height: 1;
+  }
+  .nb {
+    font-weight: 700;
+  }
+  .net {
+    font-weight: 500;
+    color: var(--text-3);
+  }
+
+  .nav-desktop {
+    display: flex;
+    gap: 4px;
+  }
+  .nav-desktop a {
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-2);
+    background: transparent;
+  }
+  .nav-desktop a:hover {
+    background: #f1f2f7;
+    color: var(--navy);
+  }
+  .nav-desktop a[aria-current] {
+    color: var(--magenta);
+    background: #f7e8fa;
+    font-weight: 700;
+  }
+
+  .call {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 44px;
+    padding: 0 18px;
+    border-radius: 999px;
+    background: var(--magenta);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .call:hover {
+    background: var(--magenta-dark);
+    color: #fff;
+  }
+  .call-icon {
+    font-size: 15px;
+  }
+
+  .burger {
+    display: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: #fff;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0;
+  }
+  .burger span {
+    width: 18px;
+    height: 2px;
+    background: var(--navy);
+    border-radius: 1px;
+  }
+
+  .nav-mobile {
+    border-top: 1px solid var(--line);
+    padding: 8px 20px 16px;
+    flex-direction: column;
+    display: none;
+  }
+  .nav-mobile a {
+    padding: 14px 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--navy);
+    border-bottom: 1px solid #f0f1f6;
+  }
+
+  @media (max-width: 819px) {
+    .nav-desktop {
+      display: none;
+    }
+    .burger {
+      display: flex;
+    }
+    .nav-mobile:not([hidden]) {
+      display: flex;
+    }
+  }
+</style>
+
+<script>
+  import { initHeader } from '../scripts/header';
+  initHeader();
+</script>

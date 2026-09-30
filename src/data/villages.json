@@ -1,0 +1,5020 @@
+[
+ {
+  "slug": "dusheti",
+  "name": "დუშეთი",
+  "latin": "dusheti",
+  "kind": "town",
+  "municipality": "dusheti",
+  "community": null,
+  "geo": [
+   42.08472,
+   44.69583
+  ]
+ },
+ {
+  "slug": "zhinvali",
+  "name": "ჟინვალი",
+  "latin": "zhinvali",
+  "kind": "daba",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.10694,
+   44.77
+  ]
+ },
+ {
+  "slug": "pasanauri",
+  "name": "ფასანაური",
+  "latin": "pasanauri",
+  "kind": "daba",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.35,
+   44.69167
+  ]
+ },
+ {
+  "slug": "abanoskhevi",
+  "name": "აბანოსხევი",
+  "latin": "abanoskhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.02639,
+   44.76472
+  ]
+ },
+ {
+  "slug": "akusho",
+  "name": "აკუშო",
+  "latin": "akusho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.46,
+   44.9575
+  ]
+ },
+ {
+  "slug": "amgha",
+  "name": "ამღა",
+  "latin": "amgha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.66944,
+   44.92694
+  ]
+ },
+ {
+  "slug": "ananuri",
+  "name": "ანანური",
+  "latin": "ananuri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.17222,
+   44.69444
+  ]
+ },
+ {
+  "slug": "aragvispiri",
+  "name": "არაგვისპირი",
+  "latin": "aragvispiri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.07583,
+   44.75139
+  ]
+ },
+ {
+  "slug": "aranisi",
+  "name": "არანისი",
+  "latin": "aranisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.12353,
+   44.76336
+  ]
+ },
+ {
+  "slug": "arakhveti",
+  "name": "არახვეთი",
+  "latin": "arakhveti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.42472,
+   44.53472
+  ]
+ },
+ {
+  "slug": "arboeti",
+  "name": "არბოეთი",
+  "latin": "arboeti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.11139,
+   44.59528
+  ]
+ },
+ {
+  "slug": "ardoti",
+  "name": "არდოტი",
+  "latin": "ardoti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.57111,
+   45.19083
+  ]
+ },
+ {
+  "slug": "arghuni",
+  "name": "არღუნი",
+  "latin": "arghuni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.11778,
+   44.63528
+  ]
+ },
+ {
+  "slug": "archilo",
+  "name": "არჭილო",
+  "latin": "archilo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.51111,
+   45.20556
+  ]
+ },
+ {
+  "slug": "atabe",
+  "name": "ატაბე",
+  "latin": "atabe",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.56556,
+   44.97194
+  ]
+ },
+ {
+  "slug": "apsho",
+  "name": "აფშო",
+  "latin": "apsho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.39139,
+   44.90694
+  ]
+ },
+ {
+  "slug": "aqneli",
+  "name": "აყნელი",
+  "latin": "aqneli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.54611,
+   44.95333
+  ]
+ },
+ {
+  "slug": "akhalaani",
+  "name": "ახალაანი",
+  "latin": "akhalaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.11167,
+   44.69222
+  ]
+ },
+ {
+  "slug": "akhali-burghuli",
+  "name": "ახალი ბურღული",
+  "latin": "akhali burghuli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.07611,
+   44.53528
+  ]
+ },
+ {
+  "slug": "akhali-kadoeti",
+  "name": "ახალი კადოეთი",
+  "latin": "akhali kadoeti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.00444,
+   44.57528
+  ]
+ },
+ {
+  "slug": "akhali-osebi",
+  "name": "ახალი ოსები",
+  "latin": "akhali osebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.02694,
+   44.81
+  ]
+ },
+ {
+  "slug": "akhali-toncha",
+  "name": "ახალი ტონჩა",
+  "latin": "akhali toncha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.10222,
+   44.65444
+  ]
+ },
+ {
+  "slug": "akhaltsikhe",
+  "name": "ახალციხე",
+  "latin": "akhaltsikhe",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.08111,
+   44.78778
+  ]
+ },
+ {
+  "slug": "akhatani",
+  "name": "ახატანი",
+  "latin": "akhatani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭოპორტის თემი",
+  "geo": [
+   41.95333,
+   44.81278
+  ]
+ },
+ {
+  "slug": "akhieli",
+  "name": "ახიელი",
+  "latin": "akhieli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.6575,
+   44.90444
+  ]
+ },
+ {
+  "slug": "baga",
+  "name": "ბაგა",
+  "latin": "baga",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.03139,
+   44.72361
+  ]
+ },
+ {
+  "slug": "bazaleti",
+  "name": "ბაზალეთი",
+  "latin": "bazaleti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.07333,
+   44.64861
+  ]
+ },
+ {
+  "slug": "bakurkhevi",
+  "name": "ბაკურხევი",
+  "latin": "bakurkhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.4775,
+   44.79639
+  ]
+ },
+ {
+  "slug": "bantsurtkari",
+  "name": "ბანცურთკარი",
+  "latin": "bantsurtkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.14389,
+   44.655
+  ]
+ },
+ {
+  "slug": "barisakho",
+  "name": "ბარისახო",
+  "latin": "barisakho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.47278,
+   44.92778
+  ]
+ },
+ {
+  "slug": "bakakurebi",
+  "name": "ბაქაქურები",
+  "latin": "bakakurebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.0425,
+   44.505
+  ]
+ },
+ {
+  "slug": "batsaligo",
+  "name": "ბაცალიგო",
+  "latin": "batsaligo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.55833,
+   44.96222
+  ]
+ },
+ {
+  "slug": "bakhani",
+  "name": "ბახანი",
+  "latin": "bakhani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.36917,
+   44.72333
+  ]
+ },
+ {
+  "slug": "bedoni",
+  "name": "ბედონი",
+  "latin": "bedoni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.42972,
+   44.55
+  ]
+ },
+ {
+  "slug": "benian-begoni",
+  "name": "ბენიან-ბეგონი",
+  "latin": "benian-begoni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.4675,
+   44.53111
+  ]
+ },
+ {
+  "slug": "bzikurtkari",
+  "name": "ბზიკურთკარი",
+  "latin": "bzikurtkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.19028,
+   44.76389
+  ]
+ },
+ {
+  "slug": "bindaurta",
+  "name": "ბინდაურთა",
+  "latin": "bindaurta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.40611,
+   45.03056
+  ]
+ },
+ {
+  "slug": "biso",
+  "name": "ბისო",
+  "latin": "biso",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.52972,
+   44.99722
+  ]
+ },
+ {
+  "slug": "bichnigauri",
+  "name": "ბიჩნიგაური",
+  "latin": "bichnigauri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.10111,
+   44.76
+  ],
+  "alt": "ბიჩნიგაურები"
+ },
+ {
+  "slug": "blo",
+  "name": "ბლო",
+  "latin": "blo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.57083,
+   44.92083
+  ]
+ },
+ {
+  "slug": "bodavi",
+  "name": "ბოდავი",
+  "latin": "bodavi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.13361,
+   44.81361
+  ]
+ },
+ {
+  "slug": "bodorna",
+  "name": "ბოდორნა",
+  "latin": "bodorna",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.05611,
+   44.74444
+  ]
+ },
+ {
+  "slug": "boseli",
+  "name": "ბოსელი",
+  "latin": "boseli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.46556,
+   44.69583
+  ]
+ },
+ {
+  "slug": "bulachauri",
+  "name": "ბულაჩაური",
+  "latin": "bulachauri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭოპორტის თემი",
+  "geo": [
+   42.05028,
+   44.76278
+  ]
+ },
+ {
+  "slug": "buchaani",
+  "name": "ბუჩაანი",
+  "latin": "buchaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.285,
+   44.69167
+  ]
+ },
+ {
+  "slug": "buchukurta",
+  "name": "ბუჩუკურთა",
+  "latin": "buchukurta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.48444,
+   44.89167
+  ]
+ },
+ {
+  "slug": "gamsi",
+  "name": "გამსი",
+  "latin": "gamsi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.43833,
+   44.71806
+  ]
+ },
+ {
+  "slug": "gveleti",
+  "name": "გველეთი",
+  "latin": "gveleti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.445,
+   44.92778
+  ]
+ },
+ {
+  "slug": "gvidake",
+  "name": "გვიდაქე",
+  "latin": "gvidake",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.43306,
+   44.60028
+  ]
+ },
+ {
+  "slug": "giorgtsminda",
+  "name": "გიორგწმინდა",
+  "latin": "giorgtsminda",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.64056,
+   45.10861
+  ]
+ },
+ {
+  "slug": "gognauri",
+  "name": "გოგნაური",
+  "latin": "gognauri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.41889,
+   44.61806
+  ]
+ },
+ {
+  "slug": "gogolaurta",
+  "name": "გოგოლაურთა",
+  "latin": "gogolaurta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.41667,
+   45.02972
+  ]
+ },
+ {
+  "slug": "gometsari",
+  "name": "გომეწარი",
+  "latin": "gometsari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.30389,
+   44.81417
+  ]
+ },
+ {
+  "slug": "grigolaantkari",
+  "name": "გრიგოლაანთკარი",
+  "latin": "grigolaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.05,
+   44.6575
+  ]
+ },
+ {
+  "slug": "gudani",
+  "name": "გუდანი",
+  "latin": "gudani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.53528,
+   44.95861
+  ]
+ },
+ {
+  "slug": "gudarakhi",
+  "name": "გუდარახი",
+  "latin": "gudarakhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.34889,
+   44.90389
+  ]
+ },
+ {
+  "slug": "gudrukhi",
+  "name": "გუდრუხი",
+  "latin": "gudrukhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.19889,
+   44.82472
+  ]
+ },
+ {
+  "slug": "davati",
+  "name": "დავათი",
+  "latin": "davati",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   41.99139,
+   44.82056
+  ]
+ },
+ {
+  "slug": "datvisi",
+  "name": "დათვისი",
+  "latin": "datvisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.44111,
+   44.90472
+  ]
+ },
+ {
+  "slug": "dgnali",
+  "name": "დგნალი",
+  "latin": "dgnali",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.22111,
+   44.65722
+  ]
+ },
+ {
+  "slug": "didebaani",
+  "name": "დიდებაანი",
+  "latin": "didebaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": null,
+  "geo": null
+ },
+ {
+  "slug": "dikhcho",
+  "name": "დიხჩო",
+  "latin": "dikhcho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.36806,
+   44.74889
+  ]
+ },
+ {
+  "slug": "dolaskedi",
+  "name": "დოლასქედი",
+  "latin": "dolaskedi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.26667,
+   44.69083
+  ]
+ },
+ {
+  "slug": "dolosha",
+  "name": "დოლოშა",
+  "latin": "dolosha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.12361,
+   44.84278
+  ]
+ },
+ {
+  "slug": "dudaurebi",
+  "name": "დუდაურები",
+  "latin": "dudaurebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.12222,
+   44.6475
+  ]
+ },
+ {
+  "slug": "dumatskho",
+  "name": "დუმაცხო",
+  "latin": "dumatskho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.46333,
+   44.70917
+  ]
+ },
+ {
+  "slug": "ebnisi",
+  "name": "ებნისი",
+  "latin": "ebnisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.0575,
+   44.60528
+  ]
+ },
+ {
+  "slug": "etvalisi",
+  "name": "ეთვალისი",
+  "latin": "etvalisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.11694,
+   44.74833
+  ]
+ },
+ {
+  "slug": "varsimaani",
+  "name": "ვარსიმაანი",
+  "latin": "varsimaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.08139,
+   44.66972
+  ]
+ },
+ {
+  "slug": "vartsla",
+  "name": "ვარცლა",
+  "latin": "vartsla",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.10861,
+   44.85028
+  ]
+ },
+ {
+  "slug": "vashlobi",
+  "name": "ვაშლობი",
+  "latin": "vashlobi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.29222,
+   44.72694
+  ]
+ },
+ {
+  "slug": "veltaurtkari",
+  "name": "ველთაურთკარი",
+  "latin": "veltaurtkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.12111,
+   44.67222
+  ]
+ },
+ {
+  "slug": "veshagurni",
+  "name": "ვეშაგურნი",
+  "latin": "veshagurni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.32861,
+   44.63417
+  ]
+ },
+ {
+  "slug": "vedzatkhevi",
+  "name": "ვეძათხევი",
+  "latin": "vedzatkhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.13139,
+   44.66639
+  ]
+ },
+ {
+  "slug": "zanduki",
+  "name": "ზანდუკი",
+  "latin": "zanduki",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.42194,
+   44.74917
+  ]
+ },
+ {
+  "slug": "zakatkari",
+  "name": "ზაქათკარი",
+  "latin": "zakatkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.44,
+   44.52222
+  ]
+ },
+ {
+  "slug": "zeistecho",
+  "name": "ზეისტეჩო",
+  "latin": "zeistecho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.57306,
+   44.96
+  ]
+ },
+ {
+  "slug": "zemo-amirni",
+  "name": "ზემო ამირნი",
+  "latin": "zemo amirni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.39556,
+   44.64972
+  ]
+ },
+ {
+  "slug": "zemo-kodistsqaro",
+  "name": "ზემო კოდისწყარო",
+  "latin": "zemo kodistsqaro",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.01278,
+   44.56056
+  ]
+ },
+ {
+  "slug": "zemo-mleta",
+  "name": "ზემო მლეთა",
+  "latin": "zemo mleta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.43056,
+   44.49722
+  ]
+ },
+ {
+  "slug": "zemo-ubani",
+  "name": "ზემო უბანი",
+  "latin": "zemo ubani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.03528,
+   44.80889
+  ]
+ },
+ {
+  "slug": "zemo-gharistsqala",
+  "name": "ზემო ღარისწყალა",
+  "latin": "zemo gharistsqala",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": null,
+  "geo": [
+   42.04667,
+   44.79722
+  ]
+ },
+ {
+  "slug": "zemo-shuakhevi",
+  "name": "ზემო შუახევი",
+  "latin": "zemo shuakhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.03,
+   44.56472
+  ]
+ },
+ {
+  "slug": "zemo-khorkhi",
+  "name": "ზემო ხორხი",
+  "latin": "zemo khorkhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.25917,
+   44.78222
+  ]
+ },
+ {
+  "slug": "zenubani",
+  "name": "ზენუბანი",
+  "latin": "zenubani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.26472,
+   44.64639
+  ]
+ },
+ {
+  "slug": "zotikiantkari",
+  "name": "ზოტიკიანთკარი",
+  "latin": "zotikiantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.1475,
+   44.69306
+  ],
+  "alt": "ზოტიკიაანთკარი"
+ },
+ {
+  "slug": "tandilaantkari",
+  "name": "თანდილაანთკარი",
+  "latin": "tandilaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.14028,
+   44.63917
+  ]
+ },
+ {
+  "slug": "taniantkari",
+  "name": "თანიანთკარი",
+  "latin": "taniantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.09861,
+   44.70472
+  ]
+ },
+ {
+  "slug": "tvalivi",
+  "name": "თვალივი",
+  "latin": "tvalivi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.19944,
+   44.84694
+  ]
+ },
+ {
+  "slug": "totiaurni",
+  "name": "თოთიაურნი",
+  "latin": "totiaurni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.4625,
+   44.79667
+  ]
+ },
+ {
+  "slug": "torelaani",
+  "name": "თორელაანი",
+  "latin": "torelaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.41444,
+   44.75778
+  ]
+ },
+ {
+  "slug": "tkhiliana",
+  "name": "თხილიანა",
+  "latin": "tkhiliana",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.42,
+   44.97444
+  ]
+ },
+ {
+  "slug": "tkhilovani",
+  "name": "თხილოვანი",
+  "latin": "tkhilovani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.10361,
+   44.58222
+  ]
+ },
+ {
+  "slug": "iltoza",
+  "name": "ილტოზა",
+  "latin": "iltoza",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.00833,
+   44.53611
+  ]
+ },
+ {
+  "slug": "ino",
+  "name": "ინო",
+  "latin": "ino",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.35194,
+   44.91333
+  ]
+ },
+ {
+  "slug": "iori",
+  "name": "იორი",
+  "latin": "iori",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.11222,
+   44.73
+  ]
+ },
+ {
+  "slug": "iukho",
+  "name": "იუხო",
+  "latin": "iukho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.46278,
+   44.53722
+  ]
+ },
+ {
+  "slug": "kaishaurni",
+  "name": "კაიშაურნი",
+  "latin": "kaishaurni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.44111,
+   44.51
+  ]
+ },
+ {
+  "slug": "kanatia",
+  "name": "კანატია",
+  "latin": "kanatia",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.25833,
+   44.84917
+  ]
+ },
+ {
+  "slug": "katsalkhevi",
+  "name": "კაწალხევი",
+  "latin": "katsalkhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.36083,
+   44.8625
+  ]
+ },
+ {
+  "slug": "kenchaklde",
+  "name": "კენჭაკლდე",
+  "latin": "kenchaklde",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.09639,
+   44.81083
+  ]
+ },
+ {
+  "slug": "kistani",
+  "name": "კისტანი",
+  "latin": "kistani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.56417,
+   45.08889
+  ]
+ },
+ {
+  "slug": "kitokhi",
+  "name": "კიტოხი",
+  "latin": "kitokhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.41889,
+   44.74889
+  ]
+ },
+ {
+  "slug": "korsha",
+  "name": "კორშა",
+  "latin": "korsha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.4806,
+   44.9306
+  ]
+ },
+ {
+  "slug": "koshkasqeli",
+  "name": "კოშკასყელი",
+  "latin": "koshkasqeli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.05,
+   44.82361
+  ]
+ },
+ {
+  "slug": "kuchecha",
+  "name": "კუჭეჭა",
+  "latin": "kuchecha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.27944,
+   44.86556
+  ]
+ },
+ {
+  "slug": "lazviani",
+  "name": "ლაზვიანი",
+  "latin": "lazviani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.03333,
+   44.70278
+  ],
+  "alt": "ლაზვიაანი"
+ },
+ {
+  "slug": "lakatkhevi",
+  "name": "ლაკათხევი",
+  "latin": "lakatkhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.43333,
+   44.56944
+  ]
+ },
+ {
+  "slug": "lamovani",
+  "name": "ლამოვანი",
+  "latin": "lamovani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   41.99528,
+   44.60333
+  ]
+ },
+ {
+  "slug": "lausha",
+  "name": "ლაუშა",
+  "latin": "lausha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.18167,
+   44.75694
+  ]
+ },
+ {
+  "slug": "lapanaantkari",
+  "name": "ლაფანაანთკარი",
+  "latin": "lapanaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.00972,
+   44.80306
+  ]
+ },
+ {
+  "slug": "lutkhubi",
+  "name": "ლუთხუბი",
+  "latin": "lutkhubi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.37972,
+   44.785
+  ]
+ },
+ {
+  "slug": "matura",
+  "name": "მათურა",
+  "latin": "matura",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.44333,
+   45.07389
+  ]
+ },
+ {
+  "slug": "manaseuri",
+  "name": "მანასეური",
+  "latin": "manaseuri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.41389,
+   44.62694
+  ],
+  "alt": "მანასეული"
+ },
+ {
+  "slug": "makarta",
+  "name": "მაქართა",
+  "latin": "makarta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.39889,
+   44.75528
+  ]
+ },
+ {
+  "slug": "magharoskari",
+  "name": "მაღაროსკარი",
+  "latin": "magharoskari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.29056,
+   44.86556
+  ]
+ },
+ {
+  "slug": "maghrani",
+  "name": "მაღრანი",
+  "latin": "maghrani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.00444,
+   44.79194
+  ]
+ },
+ {
+  "slug": "mezvriantkari",
+  "name": "მეზვრიანთკარი",
+  "latin": "mezvriantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.09472,
+   44.72583
+  ]
+ },
+ {
+  "slug": "meneso",
+  "name": "მენესო",
+  "latin": "meneso",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.23861,
+   44.75806
+  ]
+ },
+ {
+  "slug": "meneso-zhinvalis-temi",
+  "name": "მენესო",
+  "latin": "meneso",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.24111,
+   44.67167
+  ]
+ },
+ {
+  "slug": "mejilaurni",
+  "name": "მეჯილაურნი",
+  "latin": "mejilaurni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.31528,
+   44.635
+  ]
+ },
+ {
+  "slug": "migriaulebi",
+  "name": "მიგრიაულები",
+  "latin": "migriaulebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.07222,
+   44.84778
+  ]
+ },
+ {
+  "slug": "migriaulta",
+  "name": "მიგრიაულთა",
+  "latin": "migriaulta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.32806,
+   44.86639
+  ]
+ },
+ {
+  "slug": "milistsqaro",
+  "name": "მილისწყარო",
+  "latin": "milistsqaro",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   41.98722,
+   44.66722
+  ]
+ },
+ {
+  "slug": "mikeliani",
+  "name": "მიქელიანი",
+  "latin": "mikeliani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.08028,
+   44.55639
+  ]
+ },
+ {
+  "slug": "mlashe",
+  "name": "მლაშე",
+  "latin": "mlashe",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.01389,
+   44.68611
+  ]
+ },
+ {
+  "slug": "motsmao",
+  "name": "მოწმაო",
+  "latin": "motsmao",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.43611,
+   44.93389
+  ]
+ },
+ {
+  "slug": "muguda",
+  "name": "მუგუდა",
+  "latin": "muguda",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.28167,
+   44.66778
+  ]
+ },
+ {
+  "slug": "muko",
+  "name": "მუქო",
+  "latin": "muko",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.42111,
+   45.04778
+  ]
+ },
+ {
+  "slug": "mutso",
+  "name": "მუცო",
+  "latin": "mutso",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.60611,
+   45.20611
+  ]
+ },
+ {
+  "slug": "mtsiturebi",
+  "name": "მწითურები",
+  "latin": "mtsiturebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.02417,
+   44.81639
+  ]
+ },
+ {
+  "slug": "mchadijvari",
+  "name": "მჭადიჯვარი",
+  "latin": "mchadijvari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.01778,
+   44.59833
+  ]
+ },
+ {
+  "slug": "mchedliantkari",
+  "name": "მჭედლიანთკარი",
+  "latin": "mchedliantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.10222,
+   44.73167
+  ]
+ },
+ {
+  "slug": "nagliantkari",
+  "name": "ნაგლიანთკარი",
+  "latin": "nagliantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.04611,
+   44.71778
+  ],
+  "alt": "ნაგლიაანთკარი"
+ },
+ {
+  "slug": "nadibani",
+  "name": "ნადიბანი",
+  "latin": "nadibani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.41389,
+   44.60944
+  ]
+ },
+ {
+  "slug": "naniani",
+  "name": "ნანიანი",
+  "latin": "naniani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.12361,
+   44.69694
+  ]
+ },
+ {
+  "slug": "naghvarevi",
+  "name": "ნაღვარევი",
+  "latin": "naghvarevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.41889,
+   44.58806
+  ]
+ },
+ {
+  "slug": "nedzikhi",
+  "name": "ნეძიხი",
+  "latin": "nedzikhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.19028,
+   44.80694
+  ]
+ },
+ {
+  "slug": "nokorna",
+  "name": "ნოკორნა",
+  "latin": "nokorna",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.01556,
+   44.83028
+  ]
+ },
+ {
+  "slug": "nojiketi",
+  "name": "ნოჯიკეთი",
+  "latin": "nojiketi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.045,
+   44.87361
+  ]
+ },
+ {
+  "slug": "okruaani",
+  "name": "ოქრუაანი",
+  "latin": "okruaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.12917,
+   44.6625
+  ],
+  "alt": "ოქრუანი"
+ },
+ {
+  "slug": "odzisi",
+  "name": "ოძისი",
+  "latin": "odzisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.04861,
+   44.49722
+  ]
+ },
+ {
+  "slug": "pavleuri",
+  "name": "პავლეური",
+  "latin": "pavleuri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.20222,
+   44.6825
+  ]
+ },
+ {
+  "slug": "petriani",
+  "name": "პეტრიანი",
+  "latin": "petriani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.08667,
+   44.55972
+  ]
+ },
+ {
+  "slug": "pirmisaani",
+  "name": "პირმისაანი",
+  "latin": "pirmisaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.07528,
+   44.68139
+  ]
+ },
+ {
+  "slug": "zhinvala",
+  "name": "ჟინვალა",
+  "latin": "zhinvala",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": null,
+  "geo": [
+   42.12619,
+   44.78247
+  ]
+ },
+ {
+  "slug": "roshka",
+  "name": "როშკა",
+  "latin": "roshka",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.54472,
+   44.89861
+  ]
+ },
+ {
+  "slug": "sakerpo",
+  "name": "საკერპო",
+  "latin": "sakerpo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.47944,
+   44.8
+  ]
+ },
+ {
+  "slug": "sakramulo",
+  "name": "საკრამულო",
+  "latin": "sakramulo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.01278,
+   44.70583
+  ]
+ },
+ {
+  "slug": "salajuri",
+  "name": "სალაჯური",
+  "latin": "salajuri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.41639,
+   44.62194
+  ]
+ },
+ {
+  "slug": "sashaburo",
+  "name": "საშაბურო",
+  "latin": "sashaburo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.03944,
+   44.72361
+  ]
+ },
+ {
+  "slug": "sachalischala",
+  "name": "საჩალისჭალა",
+  "latin": "sachalischala",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.45333,
+   44.80417
+  ]
+ },
+ {
+  "slug": "satskhavatlo",
+  "name": "საცხავატლო",
+  "latin": "satskhavatlo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.07611,
+   44.82278
+  ]
+ },
+ {
+  "slug": "seturni",
+  "name": "სეთურნი",
+  "latin": "seturni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.45222,
+   44.49611
+  ]
+ },
+ {
+  "slug": "sepe",
+  "name": "სეფე",
+  "latin": "sepe",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.42444,
+   44.58389
+  ]
+ },
+ {
+  "slug": "sviana-rostiani",
+  "name": "სვიანა-როსტიანი",
+  "latin": "sviana-rostiani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.45583,
+   44.52861
+  ]
+ },
+ {
+  "slug": "sijanani",
+  "name": "სიჯანანი",
+  "latin": "sijanani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.46111,
+   44.79917
+  ]
+ },
+ {
+  "slug": "sonda",
+  "name": "სონდა",
+  "latin": "sonda",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.25361,
+   44.65917
+  ]
+ },
+ {
+  "slug": "sondisvela",
+  "name": "სონდისველა",
+  "latin": "sondisvela",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.20083,
+   44.75722
+  ]
+ },
+ {
+  "slug": "stsropavi",
+  "name": "სწროფავი",
+  "latin": "stsropavi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.19972,
+   44.8125
+  ]
+ },
+ {
+  "slug": "toncha",
+  "name": "ტონჩა",
+  "latin": "toncha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.12778,
+   44.58917
+  ]
+ },
+ {
+  "slug": "ukanamkhari",
+  "name": "უკანამხარი",
+  "latin": "ukanamkhari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.3325,
+   44.61667
+  ]
+ },
+ {
+  "slug": "ukanapshavi",
+  "name": "უკანაფშავი",
+  "latin": "ukanapshavi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.40778,
+   45.12778
+  ]
+ },
+ {
+  "slug": "ukanakho",
+  "name": "უკანახო",
+  "latin": "ukanakho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.48278,
+   44.87139
+  ]
+ },
+ {
+  "slug": "ukankhadu",
+  "name": "უკანხადუ",
+  "latin": "ukankhadu",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.57278,
+   44.98833
+  ]
+ },
+ {
+  "slug": "undilaantkari",
+  "name": "უნდილაანთკარი",
+  "latin": "undilaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.05667,
+   44.66778
+  ]
+ },
+ {
+  "slug": "udzilaurta",
+  "name": "უძილაურთა",
+  "latin": "udzilaurta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.435,
+   44.9675
+  ]
+ },
+ {
+  "slug": "pakhviji",
+  "name": "ფახვიჯი",
+  "latin": "pakhviji",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.44,
+   44.78194
+  ]
+ },
+ {
+  "slug": "pridonaantkari",
+  "name": "ფრიდონაანთკარი",
+  "latin": "pridonaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.12861,
+   44.7325
+  ]
+ },
+ {
+  "slug": "pudznari",
+  "name": "ფუძნარი",
+  "latin": "pudznari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.14861,
+   44.84083
+  ]
+ },
+ {
+  "slug": "pkhundavi",
+  "name": "ფხუნდავი",
+  "latin": "pkhundavi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.14889,
+   44.71028
+  ]
+ },
+ {
+  "slug": "kalilo",
+  "name": "ქალილო",
+  "latin": "kalilo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.3,
+   44.87028
+  ]
+ },
+ {
+  "slug": "karaulebi",
+  "name": "ქარაულები",
+  "latin": "karaulebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.12722,
+   44.70139
+  ]
+ },
+ {
+  "slug": "karkushaani",
+  "name": "ქარქუშაანი",
+  "latin": "karkushaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.06972,
+   44.5525
+  ]
+ },
+ {
+  "slug": "kedeloba",
+  "name": "ქედელობა",
+  "latin": "kedeloba",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.09167,
+   44.56167
+  ]
+ },
+ {
+  "slug": "kerana",
+  "name": "ქერანა",
+  "latin": "kerana",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.11167,
+   44.68139
+  ]
+ },
+ {
+  "slug": "keriaantkari",
+  "name": "ქერიაანთკარი",
+  "latin": "keriaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.02222,
+   44.80528
+  ]
+ },
+ {
+  "slug": "kvemo-aranisi",
+  "name": "ქვემო არანისი",
+  "latin": "kvemo aranisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.11361,
+   44.77417
+  ]
+ },
+ {
+  "slug": "kvemo-ashi",
+  "name": "ქვემო აში",
+  "latin": "kvemo ashi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.10972,
+   44.70028
+  ]
+ },
+ {
+  "slug": "kvemo-kodistsqaro",
+  "name": "ქვემო კოდისწყარო",
+  "latin": "kvemo kodistsqaro",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.01306,
+   44.56472
+  ]
+ },
+ {
+  "slug": "kvemo-mleta",
+  "name": "ქვემო მლეთა",
+  "latin": "kvemo mleta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.42806,
+   44.51
+  ]
+ },
+ {
+  "slug": "kvemo-gharistsqala",
+  "name": "ქვემო ღარისწყალა",
+  "latin": "kvemo gharistsqala",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭოპორტის თემი",
+  "geo": [
+   42.04556,
+   44.79833
+  ]
+ },
+ {
+  "slug": "kvemo-shuakhevi",
+  "name": "ქვემო შუახევი",
+  "latin": "kvemo shuakhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.02972,
+   44.58139
+  ]
+ },
+ {
+  "slug": "kvemo-khorkhi",
+  "name": "ქვემო ხორხი",
+  "latin": "kvemo khorkhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.22833,
+   44.75972
+  ]
+ },
+ {
+  "slug": "kvesheti",
+  "name": "ქვეშეთი",
+  "latin": "kvesheti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.42694,
+   44.55417
+  ]
+ },
+ {
+  "slug": "kvitkiristsqaro",
+  "name": "ქვითკირისწყარო",
+  "latin": "kvitkiristsqaro",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.03667,
+   44.55361
+  ]
+ },
+ {
+  "slug": "kobulo",
+  "name": "ქობულო",
+  "latin": "kobulo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.47194,
+   44.94306
+  ]
+ },
+ {
+  "slug": "kubriantkari",
+  "name": "ქუბრიანთკარი",
+  "latin": "kubriantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭოპორტის თემი",
+  "geo": [
+   42.06167,
+   44.76361
+  ]
+ },
+ {
+  "slug": "ghelisvake",
+  "name": "ღელისვაკე",
+  "latin": "ghelisvake",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.525,
+   44.92861
+  ]
+ },
+ {
+  "slug": "qarsimaantkari",
+  "name": "ყარსიმაანთკარი",
+  "latin": "qarsimaantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.05167,
+   44.7125
+  ]
+ },
+ {
+  "slug": "qvavili",
+  "name": "ყვავილი",
+  "latin": "qvavili",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.1,
+   44.71972
+  ]
+ },
+ {
+  "slug": "qvelani",
+  "name": "ყველანი",
+  "latin": "qvelani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.4225,
+   44.6
+  ]
+ },
+ {
+  "slug": "shalikiantkari",
+  "name": "შალიკიანთკარი",
+  "latin": "shalikiantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.14944,
+   44.69917
+  ]
+ },
+ {
+  "slug": "sharakhevi",
+  "name": "შარახევი",
+  "latin": "sharakhevi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.34222,
+   44.895
+  ]
+ },
+ {
+  "slug": "shatili",
+  "name": "შატილი",
+  "latin": "shatili",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.65833,
+   45.15694
+  ]
+ },
+ {
+  "slug": "shuapkho",
+  "name": "შუაფხო",
+  "latin": "shuapkho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.41667,
+   45
+  ]
+ },
+ {
+  "slug": "chanadirtkari",
+  "name": "ჩანადირთკარი",
+  "latin": "chanadirtkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.04667,
+   44.69417
+  ]
+ },
+ {
+  "slug": "chargali",
+  "name": "ჩარგალი",
+  "latin": "chargali",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.32333,
+   44.92694
+  ]
+ },
+ {
+  "slug": "chinti",
+  "name": "ჩინთი",
+  "latin": "chinti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.11639,
+   44.78389
+  ]
+ },
+ {
+  "slug": "chirdileliantkari",
+  "name": "ჩირდილელიანთკარი",
+  "latin": "chirdileliantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.05306,
+   44.64639
+  ]
+ },
+ {
+  "slug": "chirdili",
+  "name": "ჩირდილი",
+  "latin": "chirdili",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.485,
+   44.91
+  ]
+ },
+ {
+  "slug": "chiriki",
+  "name": "ჩირიკი",
+  "latin": "chiriki",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.41528,
+   44.65556
+  ]
+ },
+ {
+  "slug": "chitaurebi",
+  "name": "ჩიტაურები",
+  "latin": "chitaurebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.26917,
+   44.65056
+  ]
+ },
+ {
+  "slug": "chobalaurni",
+  "name": "ჩობალაურნი",
+  "latin": "chobalaurni",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.445,
+   44.72167
+  ]
+ },
+ {
+  "slug": "chokhi",
+  "name": "ჩოხი",
+  "latin": "chokhi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.45583,
+   44.71361
+  ]
+ },
+ {
+  "slug": "chubiniantkari",
+  "name": "ჩუბინიანთკარი",
+  "latin": "chubiniantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.03722,
+   44.64833
+  ]
+ },
+ {
+  "slug": "chkhuba",
+  "name": "ჩხუბა",
+  "latin": "chkhuba",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.55056,
+   44.95417
+  ]
+ },
+ {
+  "slug": "tsabaurta",
+  "name": "ცაბაურთა",
+  "latin": "tsabaurta",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.42694,
+   45.00583
+  ]
+ },
+ {
+  "slug": "tsigriantkari",
+  "name": "ციგრიანთკარი",
+  "latin": "tsigriantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.10694,
+   44.56028
+  ]
+ },
+ {
+  "slug": "tsivtsqaro",
+  "name": "ცივწყარო",
+  "latin": "tsivtsqaro",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.20944,
+   44.67222
+  ]
+ },
+ {
+  "slug": "tsikhevdavi",
+  "name": "ციხევდავი",
+  "latin": "tsikhevdavi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   41.99167,
+   44.64667
+  ]
+ },
+ {
+  "slug": "tsikhissopeli",
+  "name": "ციხისსოფელი",
+  "latin": "tsikhissopeli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.22861,
+   44.6325
+  ]
+ },
+ {
+  "slug": "tsikhisubani",
+  "name": "ციხისუბანი",
+  "latin": "tsikhisubani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.09056,
+   44.57
+  ]
+ },
+ {
+  "slug": "tsikhisdziri",
+  "name": "ციხისძირი",
+  "latin": "tsikhisdziri",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.18944,
+   44.6775
+  ]
+ },
+ {
+  "slug": "tskhvedieti",
+  "name": "ცხვედიეთი",
+  "latin": "tskhvedieti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.33222,
+   44.70694
+  ]
+ },
+ {
+  "slug": "dzveli-burghuli",
+  "name": "ძველი ბურღული",
+  "latin": "dzveli burghuli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გრემისხევის თემი",
+  "geo": [
+   42.09139,
+   44.52778
+  ]
+ },
+ {
+  "slug": "dzveli-sakramulo",
+  "name": "ძველი საკრამულო",
+  "latin": "dzveli sakramulo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.00694,
+   44.72833
+  ]
+ },
+ {
+  "slug": "tsiteli-klde",
+  "name": "წითელი კლდე",
+  "latin": "tsiteli klde",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.09667,
+   44.87222
+  ]
+ },
+ {
+  "slug": "tsitelsopeli",
+  "name": "წითელსოფელი",
+  "latin": "tsitelsopeli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭოპორტის თემი",
+  "geo": [
+   41.99833,
+   44.75194
+  ]
+ },
+ {
+  "slug": "tsinamkhari",
+  "name": "წინამხარი",
+  "latin": "tsinamkhari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.38861,
+   44.75278
+  ]
+ },
+ {
+  "slug": "tsinamkhari-pasanauris-temi",
+  "name": "წინამხარი",
+  "latin": "tsinamkhari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.32889,
+   44.64472
+  ]
+ },
+ {
+  "slug": "tsinkobani",
+  "name": "წინკობანი",
+  "latin": "tsinkobani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.40139,
+   44.65639
+  ]
+ },
+ {
+  "slug": "tsinkhadu",
+  "name": "წინხადუ",
+  "latin": "tsinkhadu",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.57333,
+   44.96472
+  ]
+ },
+ {
+  "slug": "tsipori",
+  "name": "წიფორი",
+  "latin": "tsipori",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.39222,
+   44.68889
+  ]
+ },
+ {
+  "slug": "tsiprani",
+  "name": "წიფრანი",
+  "latin": "tsiprani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.23639,
+   44.84361
+  ]
+ },
+ {
+  "slug": "tsitsamura",
+  "name": "წიწამურა",
+  "latin": "tsitsamura",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.03444,
+   44.58861
+  ]
+ },
+ {
+  "slug": "tskere",
+  "name": "წკერე",
+  "latin": "tskere",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.48028,
+   44.53444
+  ]
+ },
+ {
+  "slug": "chalisopeli",
+  "name": "ჭალისოფელი",
+  "latin": "chalisopeli",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.50222,
+   44.98278
+  ]
+ },
+ {
+  "slug": "chartali",
+  "name": "ჭართალი",
+  "latin": "chartali",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.27194,
+   44.67472
+  ]
+ },
+ {
+  "slug": "chivilaanebi",
+  "name": "ჭივილაანები",
+  "latin": "chivilaanebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ანანურის თემი",
+  "geo": [
+   42.22528,
+   44.68306
+  ]
+ },
+ {
+  "slug": "chikani",
+  "name": "ჭიკანი",
+  "latin": "chikani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": null,
+  "geo": [
+   42.39472,
+   44.66556
+  ]
+ },
+ {
+  "slug": "chilurti",
+  "name": "ჭილურტი",
+  "latin": "chilurti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მჭადიჯვრის თემი",
+  "geo": [
+   42.0425,
+   44.61667
+  ]
+ },
+ {
+  "slug": "chimgha",
+  "name": "ჭიმღა",
+  "latin": "chimgha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.63917,
+   44.88139
+  ]
+ },
+ {
+  "slug": "chicho",
+  "name": "ჭიჩო",
+  "latin": "chicho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.4075,
+   45.05222
+  ],
+  "alt": "ჭიშო"
+ },
+ {
+  "slug": "chontili",
+  "name": "ჭონტილი",
+  "latin": "chontili",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ბაზალეთის თემი",
+  "geo": [
+   42.0925,
+   44.61111
+  ]
+ },
+ {
+  "slug": "choporti",
+  "name": "ჭოპორტი",
+  "latin": "choporti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭოპორტის თემი",
+  "geo": [
+   41.97694,
+   44.76833
+  ]
+ },
+ {
+  "slug": "chormeshavi",
+  "name": "ჭორმეშავი",
+  "latin": "chormeshavi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.53972,
+   44.97167
+  ]
+ },
+ {
+  "slug": "khartisho",
+  "name": "ხარტიშო",
+  "latin": "khartisho",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჟინვალის თემი",
+  "geo": [
+   42.18556,
+   44.84333
+  ]
+ },
+ {
+  "slug": "kharkheti",
+  "name": "ხარხეთი",
+  "latin": "kharkheti",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.41056,
+   44.62028
+  ]
+ },
+ {
+  "slug": "khakhabo",
+  "name": "ხახაბო",
+  "latin": "khakhabo",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.55472,
+   45.13667
+  ]
+ },
+ {
+  "slug": "khakhmati",
+  "name": "ხახმატი",
+  "latin": "khakhmati",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხევსურეთის თემი",
+  "geo": [
+   42.52861,
+   45.00944
+  ]
+ },
+ {
+  "slug": "khevsha",
+  "name": "ხევშა",
+  "latin": "khevsha",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   42.39444,
+   44.68306
+  ]
+ },
+ {
+  "slug": "kheoba",
+  "name": "ხეობა",
+  "latin": "kheoba",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ხეობის თემი",
+  "geo": [
+   42.08278,
+   44.86167
+  ]
+ },
+ {
+  "slug": "khiznebi",
+  "name": "ხიზნები",
+  "latin": "khiznebi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ლაფანაანთკარის თემი",
+  "geo": [
+   42.00056,
+   44.8275
+  ]
+ },
+ {
+  "slug": "khiliana",
+  "name": "ხილიანა",
+  "latin": "khiliana",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.28944,
+   44.84694
+  ]
+ },
+ {
+  "slug": "khomi",
+  "name": "ხომი",
+  "latin": "khomi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "მაღაროსკარის თემი",
+  "geo": [
+   42.37917,
+   44.9275
+  ]
+ },
+ {
+  "slug": "khonischala",
+  "name": "ხონისჭალა",
+  "latin": "khonischala",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "შატილის თემი",
+  "geo": [
+   42.58472,
+   45.21417
+  ]
+ },
+ {
+  "slug": "khoshara",
+  "name": "ხოშარა",
+  "latin": "khoshara",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "უკანაფშავის თემი",
+  "geo": [
+   42.41389,
+   45.06472
+  ]
+ },
+ {
+  "slug": "javakhiantkari",
+  "name": "ჯავახიანთკარი",
+  "latin": "javakhiantkari",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭონქაძის თემი",
+  "geo": [
+   42.1075,
+   44.6675
+  ]
+ },
+ {
+  "slug": "jaghmiani",
+  "name": "ჯაღმიანი",
+  "latin": "jaghmiani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ქვეშეთის თემი",
+  "geo": [
+   42.44425,
+   44.50494
+  ],
+  "alt": "ჯაღმაანი"
+ },
+ {
+  "slug": "jughisi",
+  "name": "ჯუღისი",
+  "latin": "jughisi",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ჭართლის თემი",
+  "geo": [
+   42.28222,
+   44.71778
+  ]
+ },
+ {
+  "slug": "chikaani",
+  "name": "ჭიკაანი",
+  "latin": "chikaani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "ფასანაურის თემი",
+  "geo": [
+   41.87944,
+   45.91861
+  ]
+ },
+ {
+  "slug": "didebani",
+  "name": "დიდებანი",
+  "latin": "didebani",
+  "kind": "village",
+  "municipality": "dusheti",
+  "community": "გუდამაყრის თემი",
+  "geo": [
+   42.42833,
+   44.73
+  ]
+ },
+ {
+  "slug": "tianeti",
+  "name": "თიანეთი",
+  "latin": "tianeti",
+  "kind": "daba",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.10972,
+   44.96806
+  ]
+ },
+ {
+  "slug": "sioni",
+  "name": "სიონი",
+  "latin": "sioni",
+  "kind": "daba",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.98944,
+   45.025
+  ]
+ },
+ {
+  "slug": "alachani",
+  "name": "ალაჭანი",
+  "latin": "alachani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.12611,
+   44.91972
+  ]
+ },
+ {
+  "slug": "aloti",
+  "name": "ალოტი",
+  "latin": "aloti",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.04861,
+   44.94583
+  ]
+ },
+ {
+  "slug": "akhalsopeli",
+  "name": "ახალსოფელი",
+  "latin": "akhalsopeli",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.13028,
+   44.99722
+  ]
+ },
+ {
+  "slug": "badaani",
+  "name": "ბადაანი",
+  "latin": "badaani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95278,
+   45.05139
+  ]
+ },
+ {
+  "slug": "balebiskhevi",
+  "name": "ბალებისხევი",
+  "latin": "balebiskhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95583,
+   44.89944
+  ]
+ },
+ {
+  "slug": "betsentsurebi",
+  "name": "ბეწენწურები",
+  "latin": "betsentsurebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95278,
+   45.02778
+  ]
+ },
+ {
+  "slug": "bodakheva",
+  "name": "ბოდახევა",
+  "latin": "bodakheva",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.19944,
+   44.97722
+  ]
+ },
+ {
+  "slug": "bokoni",
+  "name": "ბოკონი",
+  "latin": "bokoni",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.05694,
+   44.96667
+  ]
+ },
+ {
+  "slug": "bochorma",
+  "name": "ბოჭორმა",
+  "latin": "bochorma",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.91472,
+   45.12111
+  ]
+ },
+ {
+  "slug": "gorana",
+  "name": "გორანა",
+  "latin": "gorana",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.99222,
+   44.89
+  ]
+ },
+ {
+  "slug": "gojiaanebi",
+  "name": "გოჯიაანები",
+  "latin": "gojiaanebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.13833,
+   44.98444
+  ]
+ },
+ {
+  "slug": "grdzelvelebi",
+  "name": "გრძელველები",
+  "latin": "grdzelvelebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.90472,
+   45.15639
+  ]
+ },
+ {
+  "slug": "gudanelebi",
+  "name": "გუდანელები",
+  "latin": "gudanelebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.94444,
+   44.95
+  ]
+ },
+ {
+  "slug": "devenaantkhevi",
+  "name": "დევენაანთხევი",
+  "latin": "devenaantkhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.98028,
+   44.94972
+  ]
+ },
+ {
+  "slug": "doreulebi",
+  "name": "დორეულები",
+  "latin": "doreulebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95889,
+   45.01028
+  ]
+ },
+ {
+  "slug": "duluzaurebi",
+  "name": "დულუზაურები",
+  "latin": "duluzaurebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.16389,
+   44.98583
+  ]
+ },
+ {
+  "slug": "evzhenti",
+  "name": "ევჟენტი",
+  "latin": "evzhenti",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.03333,
+   44.93472
+  ]
+ },
+ {
+  "slug": "verkhveli",
+  "name": "ვერხველი",
+  "latin": "verkhveli",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.17611,
+   44.91722
+  ]
+ },
+ {
+  "slug": "vedzatkheva",
+  "name": "ვეძათხევა",
+  "latin": "vedzatkheva",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95972,
+   44.98944
+  ]
+ },
+ {
+  "slug": "zaridzeebi",
+  "name": "ზარიძეები",
+  "latin": "zaridzeebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.13667,
+   44.89694
+  ]
+ },
+ {
+  "slug": "zemo-artani",
+  "name": "ზემო არტანი",
+  "latin": "zemo artani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.23,
+   45.00111
+  ]
+ },
+ {
+  "slug": "zemo-nakalakari",
+  "name": "ზემო ნაქალაქარი",
+  "latin": "zemo nakalakari",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.9375,
+   45.01333
+  ]
+ },
+ {
+  "slug": "zemo-sharakhevi",
+  "name": "ზემო შარახევი",
+  "latin": "zemo sharakhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.27306,
+   44.93417
+  ]
+ },
+ {
+  "slug": "zenamkhari",
+  "name": "ზენამხარი",
+  "latin": "zenamkhari",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.20778,
+   44.90611
+  ]
+ },
+ {
+  "slug": "zurabebi",
+  "name": "ზურაბები",
+  "latin": "zurabebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95694,
+   44.99778
+  ]
+ },
+ {
+  "slug": "tegeraanebi",
+  "name": "თეგერაანები",
+  "latin": "tegeraanebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.09278,
+   44.98111
+  ]
+ },
+ {
+  "slug": "tetraulebi",
+  "name": "თეთრაულები",
+  "latin": "tetraulebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.21111,
+   44.98889
+  ]
+ },
+ {
+  "slug": "tetrakheva",
+  "name": "თეთრახევა",
+  "latin": "tetrakheva",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.09694,
+   44.94528
+  ]
+ },
+ {
+  "slug": "tolenji",
+  "name": "თოლენჯი",
+  "latin": "tolenji",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.00583,
+   44.92417
+  ]
+ },
+ {
+  "slug": "tokholcha",
+  "name": "თოხოლჩა",
+  "latin": "tokholcha",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.93111,
+   44.96389
+  ]
+ },
+ {
+  "slug": "trani",
+  "name": "თრანი",
+  "latin": "trani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.93722,
+   44.97111
+  ]
+ },
+ {
+  "slug": "iarajulebi",
+  "name": "იარაჯულები",
+  "latin": "iarajulebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.15,
+   44.9
+  ]
+ },
+ {
+  "slug": "katsalo",
+  "name": "კაწალო",
+  "latin": "katsalo",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.12478,
+   45.00314
+  ]
+ },
+ {
+  "slug": "kakhoianebi",
+  "name": "კახოიანები",
+  "latin": "kakhoianebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.11861,
+   44.91111
+  ]
+ },
+ {
+  "slug": "kvernaula",
+  "name": "კვერნაულა",
+  "latin": "kvernaula",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.17556,
+   44.98917
+  ]
+ },
+ {
+  "slug": "kvernaula-37",
+  "name": "კვერნაულა",
+  "latin": "kvernaula",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.9575,
+   44.90889
+  ]
+ },
+ {
+  "slug": "kviriaskhevi",
+  "name": "კვირიასხევი",
+  "latin": "kviriaskhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95139,
+   44.91667
+  ]
+ },
+ {
+  "slug": "lelovani",
+  "name": "ლელოვანი",
+  "latin": "lelovani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.07917,
+   44.97806
+  ]
+ },
+ {
+  "slug": "lisho",
+  "name": "ლიშო",
+  "latin": "lisho",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.18056,
+   44.97278
+  ]
+ },
+ {
+  "slug": "magraneti",
+  "name": "მაგრანეთი",
+  "latin": "magraneti",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.93833,
+   44.99444
+  ]
+ },
+ {
+  "slug": "mamadaanebi",
+  "name": "მამადაანები",
+  "latin": "mamadaanebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.15083,
+   44.96972
+  ]
+ },
+ {
+  "slug": "meliaskhevi",
+  "name": "მელიასხევი",
+  "latin": "meliaskhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.99972,
+   44.93139
+  ]
+ },
+ {
+  "slug": "nadokra",
+  "name": "ნადოკრა",
+  "latin": "nadokra",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.97667,
+   44.89056
+  ]
+ },
+ {
+  "slug": "omaraani",
+  "name": "ომარაანი",
+  "latin": "omaraani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.92639,
+   45.12389
+  ]
+ },
+ {
+  "slug": "orkhevi",
+  "name": "ორხევი",
+  "latin": "orkhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.96778,
+   45.03111
+  ]
+ },
+ {
+  "slug": "zhebota",
+  "name": "ჟებოტა",
+  "latin": "zhebota",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.10694,
+   44.98472
+  ]
+ },
+ {
+  "slug": "sakrechio",
+  "name": "საკრეჭიო",
+  "latin": "sakrechio",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.15472,
+   44.93778
+  ]
+ },
+ {
+  "slug": "saqdrioni",
+  "name": "საყდრიონი",
+  "latin": "saqdrioni",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.97639,
+   44.95694
+  ]
+ },
+ {
+  "slug": "sakhevi",
+  "name": "სახევი",
+  "latin": "sakhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.21528,
+   45.00222
+  ]
+ },
+ {
+  "slug": "sajinibo",
+  "name": "საჯინიბო",
+  "latin": "sajinibo",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.94306,
+   45.05083
+  ]
+ },
+ {
+  "slug": "simoniantkhevi",
+  "name": "სიმონიანთხევი",
+  "latin": "simoniantkhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.00278,
+   44.90917
+  ]
+ },
+ {
+  "slug": "siontgori",
+  "name": "სიონთგორი",
+  "latin": "siontgori",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.96417,
+   44.89444
+  ]
+ },
+ {
+  "slug": "skhlovani",
+  "name": "სხლოვანი",
+  "latin": "skhlovani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.19556,
+   44.98583
+  ]
+ },
+ {
+  "slug": "tolatsopeli",
+  "name": "ტოლათსოფელი",
+  "latin": "tolatsopeli",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.94444,
+   44.94528
+  ]
+ },
+ {
+  "slug": "tushurebi",
+  "name": "ტუშურები",
+  "latin": "tushurebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.12278,
+   44.9075
+  ]
+ },
+ {
+  "slug": "pichviani",
+  "name": "ფიჭვიანი",
+  "latin": "pichviani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.92889,
+   45.1075
+  ]
+ },
+ {
+  "slug": "kvemo-artani",
+  "name": "ქვემო არტანი",
+  "latin": "kvemo artani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.21556,
+   44.99222
+  ]
+ },
+ {
+  "slug": "kvemo-nakalakari",
+  "name": "ქვემო ნაქალაქარი",
+  "latin": "kvemo nakalakari",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.95056,
+   45.01139
+  ]
+ },
+ {
+  "slug": "kvemo-sharakhevi",
+  "name": "ქვემო შარახევი",
+  "latin": "kvemo sharakhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.22194,
+   44.87556
+  ]
+ },
+ {
+  "slug": "kushkhevi",
+  "name": "ქუშხევი",
+  "latin": "kushkhevi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.22111,
+   44.97444
+  ]
+ },
+ {
+  "slug": "ghulelebi",
+  "name": "ღულელები",
+  "latin": "ghulelebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.93778,
+   44.92889
+  ]
+ },
+ {
+  "slug": "qudro",
+  "name": "ყუდრო",
+  "latin": "qudro",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.93194,
+   45.07389
+  ]
+ },
+ {
+  "slug": "chabano",
+  "name": "ჩაბანო",
+  "latin": "chabano",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.13778,
+   45.02083
+  ]
+ },
+ {
+  "slug": "chekuraantgori",
+  "name": "ჩეკურაანთგორი",
+  "latin": "chekuraantgori",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.02889,
+   44.95528
+  ]
+ },
+ {
+  "slug": "tsalughelaantkari",
+  "name": "ცალუღელაანთკარი",
+  "latin": "tsalughelaantkari",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.99472,
+   44.91944
+  ]
+ },
+ {
+  "slug": "dzebniaurebi",
+  "name": "ძებნიაურები",
+  "latin": "dzebniaurebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.10056,
+   44.98694
+  ]
+ },
+ {
+  "slug": "tsikvliantkari",
+  "name": "წიკვლიანთკარი",
+  "latin": "tsikvliantkari",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.14417,
+   44.92083
+  ]
+ },
+ {
+  "slug": "tsqarotubani",
+  "name": "წყაროთუბანი",
+  "latin": "tsqarotubani",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.94083,
+   44.94722
+  ]
+ },
+ {
+  "slug": "chiaura",
+  "name": "ჭიაურა",
+  "latin": "chiaura",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.16583,
+   45.04
+  ]
+ },
+ {
+  "slug": "churchelaurebi",
+  "name": "ჭურჭელაურები",
+  "latin": "churchelaurebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.14028,
+   44.975
+  ]
+ },
+ {
+  "slug": "khadoelebi",
+  "name": "ხადოელები",
+  "latin": "khadoelebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.93833,
+   44.95611
+  ]
+ },
+ {
+  "slug": "khaisho",
+  "name": "ხაიშო",
+  "latin": "khaisho",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.18667,
+   45.06333
+  ]
+ },
+ {
+  "slug": "khevsurtsopeli",
+  "name": "ხევსურთსოფელი",
+  "latin": "khevsurtsopeli",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   41.98944,
+   44.9425
+  ]
+ },
+ {
+  "slug": "khoptsa",
+  "name": "ხოფცა",
+  "latin": "khoptsa",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.12972,
+   44.88
+  ]
+ },
+ {
+  "slug": "jervalidzeebi",
+  "name": "ჯერვალიძეები",
+  "latin": "jervalidzeebi",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.12139,
+   44.87472
+  ]
+ },
+ {
+  "slug": "jijeti",
+  "name": "ჯიჯეთი",
+  "latin": "jijeti",
+  "kind": "village",
+  "municipality": "tianeti",
+  "community": null,
+  "geo": [
+   42.1625,
+   44.89583
+  ]
+ },
+ {
+  "slug": "mtskheta",
+  "name": "მცხეთა",
+  "latin": "mtskheta",
+  "kind": "town",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.84306,
+   44.71944
+  ]
+ },
+ {
+  "slug": "arashenda",
+  "name": "არაშენდა",
+  "latin": "arashenda",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.90306,
+   44.79472
+  ]
+ },
+ {
+  "slug": "aghdgomelaantkari",
+  "name": "აღდგომელაანთკარი",
+  "latin": "aghdgomelaantkari",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.96194,
+   44.74167
+  ]
+ },
+ {
+  "slug": "akhaldaba",
+  "name": "ახალდაბა",
+  "latin": "akhaldaba",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.97222,
+   44.66389
+  ]
+ },
+ {
+  "slug": "akhali-nichbisi",
+  "name": "ახალი ნიჩბისი",
+  "latin": "akhali nichbisi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.84611,
+   44.54778
+  ]
+ },
+ {
+  "slug": "akhalsopeli",
+  "name": "ახალსოფელი",
+  "latin": "akhalsopeli",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.90167,
+   44.78444
+  ]
+ },
+ {
+  "slug": "akhalubani",
+  "name": "ახალუბანი",
+  "latin": "akhalubani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.94528,
+   44.69972
+  ]
+ },
+ {
+  "slug": "bevreti",
+  "name": "ბევრეთი",
+  "latin": "bevreti",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.74861,
+   44.58278
+  ]
+ },
+ {
+  "slug": "bitsmendi",
+  "name": "ბიწმენდი",
+  "latin": "bitsmendi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.93556,
+   44.79722
+  ]
+ },
+ {
+  "slug": "buriani",
+  "name": "ბურიანი",
+  "latin": "buriani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.89222,
+   44.87333
+  ]
+ },
+ {
+  "slug": "galavani",
+  "name": "გალავანი",
+  "latin": "galavani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.91333,
+   44.81333
+  ]
+ },
+ {
+  "slug": "gorovani",
+  "name": "გოროვანი",
+  "latin": "gorovani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.88361,
+   44.66694
+  ]
+ },
+ {
+  "slug": "ereda",
+  "name": "ერედა",
+  "latin": "ereda",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.96972,
+   44.63111
+  ]
+ },
+ {
+  "slug": "vaziani",
+  "name": "ვაზიანი",
+  "latin": "vaziani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.96639,
+   44.57056
+  ]
+ },
+ {
+  "slug": "vardisubani",
+  "name": "ვარდისუბანი",
+  "latin": "vardisubani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.94972,
+   44.53639
+  ]
+ },
+ {
+  "slug": "zakaro",
+  "name": "ზაქარო",
+  "latin": "zakaro",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.91139,
+   44.825
+  ]
+ },
+ {
+  "slug": "zahesi",
+  "name": "ზაჰესი",
+  "latin": "zahesi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": null
+ },
+ {
+  "slug": "zemo-nichbisi",
+  "name": "ზემო ნიჩბისი",
+  "latin": "zemo nichbisi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.82278,
+   44.5175
+  ]
+ },
+ {
+  "slug": "tezami",
+  "name": "თეზამი",
+  "latin": "tezami",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.88222,
+   44.95722
+  ]
+ },
+ {
+  "slug": "karsani",
+  "name": "კარსანი",
+  "latin": "karsani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.82765,
+   44.69981
+  ]
+ },
+ {
+  "slug": "kevliani",
+  "name": "კევლიანი",
+  "latin": "kevliani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.87889,
+   45.00306
+  ]
+ },
+ {
+  "slug": "kotoraantkari",
+  "name": "კოტორაანთკარი",
+  "latin": "kotoraantkari",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.89306,
+   44.84861
+  ]
+ },
+ {
+  "slug": "lelubani",
+  "name": "ლელუბანი",
+  "latin": "lelubani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.85917,
+   44.90694
+  ]
+ },
+ {
+  "slug": "lisi",
+  "name": "ლისი",
+  "latin": "lisi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.75667,
+   44.67278
+  ]
+ },
+ {
+  "slug": "mamkoda",
+  "name": "მამკოდა",
+  "latin": "mamkoda",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.83583,
+   44.8525
+  ]
+ },
+ {
+  "slug": "misaktsieli",
+  "name": "მისაქციელი",
+  "latin": "misaktsieli",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.94167,
+   44.7375
+  ]
+ },
+ {
+  "slug": "mskhaldidi",
+  "name": "მსხალდიდი",
+  "latin": "mskhaldidi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.73889,
+   44.62917
+  ]
+ },
+ {
+  "slug": "mukhatgverdi",
+  "name": "მუხათგვერდი",
+  "latin": "mukhatgverdi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.82222,
+   44.73083
+  ]
+ },
+ {
+  "slug": "mukhattsqaro",
+  "name": "მუხათწყარო",
+  "latin": "mukhattsqaro",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.74417,
+   44.66083
+  ]
+ },
+ {
+  "slug": "mukhrani",
+  "name": "მუხრანი",
+  "latin": "mukhrani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.9325,
+   44.57667
+  ]
+ },
+ {
+  "slug": "mshralkhevi",
+  "name": "მშრალხევი",
+  "latin": "mshralkhevi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.85361,
+   44.88722
+  ]
+ },
+ {
+  "slug": "navazi",
+  "name": "ნავაზი",
+  "latin": "navazi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.98194,
+   44.74167
+  ]
+ },
+ {
+  "slug": "navdaraantkari",
+  "name": "ნავდარაანთკარი",
+  "latin": "navdaraantkari",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.90333,
+   44.82028
+  ]
+ },
+ {
+  "slug": "natakhtari",
+  "name": "ნატახტარი",
+  "latin": "natakhtari",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.91972,
+   44.72806
+  ]
+ },
+ {
+  "slug": "napetvrebi",
+  "name": "ნაფეტვრები",
+  "latin": "napetvrebi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.7275,
+   44.6675
+  ]
+ },
+ {
+  "slug": "nakhshirgora",
+  "name": "ნახშირგორა",
+  "latin": "nakhshirgora",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.72222,
+   44.6175
+  ]
+ },
+ {
+  "slug": "patara-kanda",
+  "name": "პატარა ქანდა",
+  "latin": "patara kanda",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.91528,
+   44.58528
+  ]
+ },
+ {
+  "slug": "saguramo",
+  "name": "საგურამო",
+  "latin": "saguramo",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.8988,
+   44.7595
+  ]
+ },
+ {
+  "slug": "satovle",
+  "name": "სათოვლე",
+  "latin": "satovle",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.805,
+   44.57306
+  ]
+ },
+ {
+  "slug": "saskhori",
+  "name": "სასხორი",
+  "latin": "saskhori",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.84167,
+   44.55528
+  ]
+ },
+ {
+  "slug": "skhaltba",
+  "name": "სხალტბა",
+  "latin": "skhaltba",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.87056,
+   44.665
+  ]
+ },
+ {
+  "slug": "upureti",
+  "name": "უფურეთი",
+  "latin": "upureti",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.98194,
+   44.68222
+  ]
+ },
+ {
+  "slug": "prezeti",
+  "name": "ფრეზეთი",
+  "latin": "prezeti",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.97583,
+   44.68639
+  ]
+ },
+ {
+  "slug": "kvemo-nichbisi",
+  "name": "ქვემო ნიჩბისი",
+  "latin": "kvemo nichbisi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.82778,
+   44.53417
+  ]
+ },
+ {
+  "slug": "ksani",
+  "name": "ქსანი",
+  "latin": "ksani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.86722,
+   44.575
+  ]
+ },
+ {
+  "slug": "ksovrisi",
+  "name": "ქსოვრისი",
+  "latin": "ksovrisi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.97778,
+   44.5225
+  ]
+ },
+ {
+  "slug": "shankevani",
+  "name": "შანკევანი",
+  "latin": "shankevani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.88694,
+   44.80472
+  ]
+ },
+ {
+  "slug": "chardakhi",
+  "name": "ჩარდახი",
+  "latin": "chardakhi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.88707,
+   44.64968
+  ]
+ },
+ {
+  "slug": "tsikhisdziri",
+  "name": "ციხისძირი",
+  "latin": "tsikhisdziri",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.89028,
+   44.57583
+  ]
+ },
+ {
+  "slug": "tskhvarichamia",
+  "name": "ცხვარიჭამია",
+  "latin": "tskhvarichamia",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.88306,
+   44.92583
+  ]
+ },
+ {
+  "slug": "dzalantkhevi",
+  "name": "ძალანთხევი",
+  "latin": "dzalantkhevi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.76944,
+   44.61528
+  ]
+ },
+ {
+  "slug": "dzalisi",
+  "name": "ძალისი",
+  "latin": "dzalisi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.96111,
+   44.6075
+  ]
+ },
+ {
+  "slug": "dzegvi",
+  "name": "ძეგვი",
+  "latin": "dzegvi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.84639,
+   44.59889
+  ]
+ },
+ {
+  "slug": "dzveli-kanda",
+  "name": "ძველი ქანდა",
+  "latin": "dzveli kanda",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.90306,
+   44.5975
+  ]
+ },
+ {
+  "slug": "tserovani",
+  "name": "წეროვანი",
+  "latin": "tserovani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.87881,
+   44.6814
+  ]
+ },
+ {
+  "slug": "tsilkani",
+  "name": "წილკანი",
+  "latin": "tsilkani",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.9496,
+   44.658
+  ]
+ },
+ {
+  "slug": "tsinamdzghvriantkari",
+  "name": "წინამძღვრიანთკარი",
+  "latin": "tsinamdzghvriantkari",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.92194,
+   44.815
+  ]
+ },
+ {
+  "slug": "tsitsamuri",
+  "name": "წიწამური",
+  "latin": "tsitsamuri",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.86083,
+   44.7325
+  ]
+ },
+ {
+  "slug": "tsodoreti",
+  "name": "წოდორეთი",
+  "latin": "tsodoreti",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.76056,
+   44.65528
+  ]
+ },
+ {
+  "slug": "khekordzi",
+  "name": "ხეკორძი",
+  "latin": "khekordzi",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.82278,
+   44.55778
+  ]
+ },
+ {
+  "slug": "jighaura",
+  "name": "ჯიღაურა",
+  "latin": "jighaura",
+  "kind": "village",
+  "municipality": "mtskheta",
+  "community": null,
+  "geo": [
+   41.92361,
+   44.77639
+  ]
+ },
+ {
+  "slug": "stepantsminda",
+  "name": "სტეფანწმინდა",
+  "latin": "stepantsminda",
+  "kind": "daba",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.65833,
+   44.64167
+  ]
+ },
+ {
+  "slug": "abano",
+  "name": "აბანო",
+  "latin": "abano",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60444,
+   44.38833
+  ]
+ },
+ {
+  "slug": "arsha",
+  "name": "არშა",
+  "latin": "arsha",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.61729,
+   44.59848
+  ]
+ },
+ {
+  "slug": "achkhoti",
+  "name": "აჩხოტი",
+  "latin": "achkhoti",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.62161,
+   44.61694
+  ]
+ },
+ {
+  "slug": "akhaltsikhe",
+  "name": "ახალციხე",
+  "latin": "akhaltsikhe",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.59028,
+   44.66306
+  ]
+ },
+ {
+  "slug": "garbani",
+  "name": "გარბანი",
+  "latin": "garbani",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60889,
+   44.59139
+  ]
+ },
+ {
+  "slug": "gveleti",
+  "name": "გველეთი",
+  "latin": "gveleti",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.71139,
+   44.62417
+  ]
+ },
+ {
+  "slug": "goristsikhe",
+  "name": "გორისციხე",
+  "latin": "goristsikhe",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60167,
+   44.56806
+  ]
+ },
+ {
+  "slug": "gudauri",
+  "name": "გუდაური",
+  "latin": "gudauri",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.47583,
+   44.47861
+  ]
+ },
+ {
+  "slug": "desi",
+  "name": "დესი",
+  "latin": "desi",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60722,
+   44.35167
+  ]
+ },
+ {
+  "slug": "ereto",
+  "name": "ერეთო",
+  "latin": "ereto",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.485,
+   44.44472
+  ]
+ },
+ {
+  "slug": "vardisubani",
+  "name": "ვარდისუბანი",
+  "latin": "vardisubani",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60306,
+   44.57667
+  ]
+ },
+ {
+  "slug": "karkucha",
+  "name": "კარკუჩა",
+  "latin": "karkucha",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.57833,
+   44.67833
+  ]
+ },
+ {
+  "slug": "kobi",
+  "name": "კობი",
+  "latin": "kobi",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.55944,
+   44.51194
+  ]
+ },
+ {
+  "slug": "sioni",
+  "name": "სიონი",
+  "latin": "sioni",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60444,
+   44.58333
+  ]
+ },
+ {
+  "slug": "sno",
+  "name": "სნო",
+  "latin": "sno",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60566,
+   44.63882
+  ]
+ },
+ {
+  "slug": "tqarsheti",
+  "name": "ტყარშეტი",
+  "latin": "tqarsheti",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60806,
+   44.575
+  ]
+ },
+ {
+  "slug": "pansheti",
+  "name": "ფანშეტი",
+  "latin": "pansheti",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.63468,
+   44.61801
+  ]
+ },
+ {
+  "slug": "pkhelshe",
+  "name": "ფხელშე",
+  "latin": "pkhelshe",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.60083,
+   44.5625
+  ]
+ },
+ {
+  "slug": "kvemo-okroqana",
+  "name": "ქვემო ოქროყანა",
+  "latin": "kvemo okroqana",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.58389,
+   44.46222
+  ]
+ },
+ {
+  "slug": "koseli",
+  "name": "ქოსელი",
+  "latin": "koseli",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.59139,
+   44.665
+  ]
+ },
+ {
+  "slug": "kumlistsikhe",
+  "name": "ქუმლისციხე",
+  "latin": "kumlistsikhe",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.45472,
+   44.48528
+  ]
+ },
+ {
+  "slug": "qanobi",
+  "name": "ყანობი",
+  "latin": "qanobi",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.59,
+   44.52611
+  ]
+ },
+ {
+  "slug": "tsdo",
+  "name": "ცდო",
+  "latin": "tsdo",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.6925,
+   44.63333
+  ]
+ },
+ {
+  "slug": "khurtisi",
+  "name": "ხურთისი",
+  "latin": "khurtisi",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.59833,
+   44.53833
+  ]
+ },
+ {
+  "slug": "juta",
+  "name": "ჯუთა",
+  "latin": "juta",
+  "kind": "village",
+  "municipality": "kazbegi",
+  "community": null,
+  "geo": [
+   42.57884,
+   44.74654
+  ]
+ }
+]

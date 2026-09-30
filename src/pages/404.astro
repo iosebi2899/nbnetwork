@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import PageHero from '../components/PageHero.astro';
+import Coverage from '../components/Coverage.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Base title="გვერდი ვერ მოიძებნა | NB Networks" noindex>
+  <div class="page">
+    <Header />
+    <main>
+      <PageHero
+        crumbs={[{ name: 'მთავარი', href: '/' }, { name: '404', href: '/404' }]}
+        title="გვერდი ვერ მოიძებნა"
+        lead="ეს გვერდი არ არსებობს. მოძებნეთ თქვენი სოფელი ან დაგვირეკეთ."
+      />
+      <Coverage />
+    </main>
+    <Footer />
+  </div>
+</Base>

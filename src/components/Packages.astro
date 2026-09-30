@@ -1,0 +1,125 @@
+---
+import { PACKAGES } from '../data/site';
+interface Props {
+  title?: string;
+}
+const { title = 'ინტერნეტ პაკეტები' } = Astro.props;
+const max = Math.max(...PACKAGES.map((p) => p.speed));
+---
+
+<section id="packages" class="packages container anchor" aria-labelledby="packages-title">
+  <div class="section-head">
+    <span class="eyebrow">პაკეტები</span>
+    <h2 id="packages-title" class="h2">{title}</h2>
+  </div>
+  <div class="grid">
+    {
+      PACKAGES.map((p) => (
+        <article class="card">
+          <h3 class="speed">
+            <span class="num">{p.speed}</span>
+            <span class="unit">Mbps</span>
+          </h3>          <div class="track" aria-hidden="true">
+            <div class="bar" style={`width:${Math.round((p.speed / max) * 100)}%`} />
+          </div>
+          <p class="price">
+            <span class="amount">{p.price}</span>
+            <span class="currency">ლარი</span>
+          </p>
+        </article>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .packages {
+    padding: var(--sec-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    --track: var(--line-soft);
+    --bar: var(--magenta);
+    --divider: var(--line-soft);
+    background: #fff;
+    color: var(--navy);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transition:
+      background var(--ease),
+      color var(--ease),
+      border-color var(--ease),
+      transform var(--ease),
+      box-shadow var(--ease);
+  }
+  .card:hover {
+    --track: rgba(255, 255, 255, 0.15);
+    --bar: var(--pink);
+    --divider: rgba(255, 255, 255, 0.15);
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(20, 26, 58, 0.18);
+  }
+  .speed {
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-family: var(--font-display);
+  }
+  .num {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -2px;
+  }
+  .unit {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+  .track {
+    height: 6px;
+    border-radius: 3px;
+    background: var(--track);
+    overflow: hidden;
+    transition: background var(--ease);
+  }
+  .bar {
+    height: 100%;
+    background: var(--bar);
+    border-radius: 3px;
+    transition: background var(--ease);
+  }
+  .price {
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    padding-top: 4px;
+    border-top: 1px solid var(--divider);
+  }
+  .amount {
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 16px;
+  }
+  .currency {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.75;
+  }
+</style>

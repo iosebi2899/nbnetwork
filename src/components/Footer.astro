@@ -1,0 +1,26 @@
+---
+import Logo from './Logo.astro';
+---
+
+<footer class="footer container">
+  <span class="brand"><Logo size={22} /> © nbnetworks.ge</span>
+  <span>ინტერნეტ პროვაიდერი დუშეთისა და მცხეთა მთიანეთის რაიონში</span>
+</footer>
+
+<style>
+  .footer {
+    padding: 8px 20px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+</style>

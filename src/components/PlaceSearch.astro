@@ -1,0 +1,80 @@
+---
+interface Props {
+  /** When true, the input filters the list on the current page (hub). Otherwise it submits to /internet/. */
+  live?: boolean;
+  dark?: boolean;
+}
+const { live = false, dark = false } = Astro.props;
+---
+
+<form action="/internet/" method="get" role="search" class:list={['search', { dark }]} data-place-search={live ? '' : undefined}>
+  <label for={live ? 'q-live' : 'q'} class="sr-only">მოძებნეთ სოფელი, ქალაქი ან დაბა</label>
+  <input
+    id={live ? 'q-live' : 'q'}
+    name="q"
+    type="search"
+    autocomplete="off"
+    placeholder="სოფელი, ქალაქი ან დაბა — მაგ. ჭოპორტი, დუშეთი, ტონჩა"
+  />
+  <button type="submit">შემოწმება</button>
+</form>
+
+<style>
+  .search {
+    display: flex;
+    gap: 8px;
+    padding: 6px;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid var(--line);
+    max-width: 640px;
+    width: 100%;
+  }
+  .search.dark {
+    border-color: transparent;
+    box-shadow: 0 12px 32px rgba(20, 26, 58, 0.18);
+  }
+  input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 0 16px;
+    font: inherit;
+    font-size: 15px;
+    color: var(--navy);
+  }
+  input::placeholder {
+    color: var(--muted);
+  }
+  button {
+    flex: none;
+    height: 46px;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--magenta);
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: var(--magenta-dark);
+  }
+  .search:focus-within {
+    outline: 2px solid var(--magenta);
+    outline-offset: 2px;
+  }
+  @media (max-width: 559px) {
+    input {
+      padding: 0 10px;
+      font-size: 14px;
+    }
+    button {
+      padding: 0 16px;
+    }
+  }
+</style>

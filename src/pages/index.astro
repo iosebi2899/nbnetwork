@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Packages from '../components/Packages.astro';
+import Services from '../components/Services.astro';
+import Coverage from '../components/Coverage.astro';
+import Faq from '../components/Faq.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+import { HOME_FAQ } from '../data/faq';
+import { faqPage } from '../data/schema';
+---
+
+<Base schema={[faqPage(HOME_FAQ)]}>
+  <div class="page">
+    <Header home />
+    <main>
+      <Hero />
+      <Packages />
+      <Services />
+      <Coverage />
+      <Faq title="ხშირად დასმული კითხვები" items={HOME_FAQ} band />
+      <Contact />
+    </main>
+    <Footer />
+  </div>
+</Base>

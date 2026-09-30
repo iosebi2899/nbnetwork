@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import PageHero from '../../../components/PageHero.astro';
+import Packages from '../../../components/Packages.astro';
+import ConnectSteps from '../../../components/ConnectSteps.astro';
+import PlaceFacts from '../../../components/PlaceFacts.astro';
+import Services from '../../../components/Services.astro';
+import Faq from '../../../components/Faq.astro';
+import Contact from '../../../components/Contact.astro';
+import Footer from '../../../components/Footer.astro';
+import {
+  PLACES,
+  REGION,
+  isConfirmed,
+  latinTitle,
+  locative,
+  municipality,
+  municipalityUrl,
+  placeUrl,
+  type Place,
+} from '../../../data/places';
+import { SITE } from '../../../data/site';
+import { placeFaq } from '../../../data/faq';
+import { breadcrumbs, faqPage, placeService, type Crumb } from '../../../data/schema';
+
+export function getStaticPaths() {
+  return PLACES.map((place) => ({
+    params: { municipality: place.municipality, village: place.slug },
+    props: { place },
+  }));
+}
+
+interface Props {
+  place: Place;
+}
+
+const { place: p } = Astro.props;
+const m = municipality(p.municipality);
+const loc = locative(p.name);
+const url = placeUrl(p);
+const confirmed = isConfirmed(p);
+const faq = placeFaq(p);
+const where = [p.community, m.full].filter(Boolean).join(', ');
+
+const crumbs: Crumb[] = [
+  { name: 'მთავარი', href: '/' },
+  { name: 'დაფარვა', href: '/internet/' },
+  { name: m.full, href: municipalityUrl(m.key) },
+  { name: p.name, href: url },
+];
+
+const title = `ინტერნეტი ${loc} — ინტერნეტ პროვაიდერი, ${m.short} | NB Networks`;
+const description = `ინტერნეტის შემოყვანა ${loc} (${where}). სტაბილური ინტერნეტი 25–50 Mbps, WI-FI და ქსელის მონტაჟი, 24/7 მხარდაჭერა. დარეკეთ: ${SITE.phoneDisplay}`;
+const lead = confirmed
+  ? `NB Networks — ინტერნეტ პროვაიდერი ${loc}. სტაბილური ინტერნეტი, WI-FI და ქსელის ინსტალაცია/მონტაჟი ${m.loc}.`
+  : `NB Networks — ინტერნეტ პროვაიდერი ${m.loc} და ${REGION.loc}. დაგვირეკეთ და გადავამოწმებთ ინტერნეტის შემოყვანას ${loc}.`;
+---
+
+<Base
+  title={title}
+  description={description}
+  geo={p.geo}
+  geoName={p.name}
+  schema={[breadcrumbs(crumbs), placeService(p, url), faqPage(faq)]}
+>
+  <div class="page">
+    <Header />
+    <main>
+      <PageHero
+        crumbs={crumbs}
+        title={`ინტერნეტი ${loc}`}
+        lead={lead}
+        note={`Internet in ${latinTitle(p)}, ${m.latin} — ${where}`}
+        status={confirmed
+          ? { ok: true, label: `${p.name} — დაფარვის ზონაში` }
+          : { ok: false, label: 'დაფარვა — გადაამოწმეთ ტელეფონით' }}
+      />
+      <Packages title={`ინტერნეტ პაკეტები ${loc}`} />
+      <ConnectSteps loc={loc} />
+      <Services title={`სერვისები ${loc}`} />
+      <PlaceFacts place={p} />
+      <Faq title={`ინტერნეტი ${loc} — კითხვა-პასუხი`} items={faq} band />
+      <Contact />
+    </main>
+    <Footer />
+  </div>
+</Base>

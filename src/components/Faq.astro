@@ -1,0 +1,133 @@
+---
+import type { FaqItem } from '../data/site';
+
+interface Props {
+  title: string;
+  items: readonly FaqItem[];
+  /** Section background: white band or page background. */
+  band?: boolean;
+}
+
+const { title, items, band = false } = Astro.props;
+---
+
+<section id="faq" class:list={['faq', 'anchor', { band }]} aria-labelledby="faq-title">
+  <div class="container inner">
+    <div class="section-head">
+      <span class="eyebrow">კითხვა-პასუხი</span>
+      <h2 id="faq-title" class="h2">{title}</h2>
+    </div>
+    <div class="list">
+      {
+        items.map((f, i) => (
+          <details open={i === 0}>
+            <summary>
+              <h3>{f.q}</h3>
+              <span class="chev" aria-hidden="true" />
+            </summary>
+            <div class="answer">
+              {f.a && <p>{f.a}</p>}
+              {f.list && (
+                <ul>
+                  {f.list.map((li) => (
+                    <li>{li}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .band {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .inner {
+    padding: var(--sec-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 880px;
+  }
+  details {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+  }
+  .band details {
+    background: var(--bg);
+    border-color: transparent;
+  }
+  summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.45;
+  }
+  .chev {
+    flex: none;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid var(--magenta);
+    border-bottom: 2px solid var(--magenta);
+    transform: rotate(45deg) translateY(-3px);
+    transition: transform var(--ease);
+  }
+  details[open] .chev {
+    transform: rotate(-135deg) translateY(-3px);
+  }
+  .answer {
+    padding: 0 24px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-2);
+  }
+  p {
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  li {
+    position: relative;
+    padding-left: 22px;
+  }
+  li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--magenta);
+    font-weight: 700;
+  }
+</style>

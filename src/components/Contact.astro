@@ -1,0 +1,172 @@
+---
+import { SITE } from '../data/site';
+---
+
+<section id="contact" class="contact anchor" aria-labelledby="contact-title">
+  <div class="panel">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="info">
+      <span class="eyebrow">კონტაქტი</span>
+      <h2 id="contact-title" class="h2">დაგვიკავშირდით</h2>
+      <div class="owner">
+        <span class="owner-title">ინტერნეტ მომსახურება</span>
+        <span class="owner-name">{SITE.legalName}</span>
+      </div>
+    </div>
+    <address class="links">
+      <a href={`tel:${SITE.phone}`} class="row">
+        <span class="icon icon-phone" aria-hidden="true">☏</span>
+        <span class="text">
+          <span class="label">ტელეფონი</span>
+          <span class="value phone">{SITE.phoneDisplay}</span>
+        </span>
+      </a>
+      <a href={`mailto:${SITE.email}`} class="row">
+        <span class="icon icon-mail" aria-hidden="true">@</span>
+        <span class="text">
+          <span class="label">ელფოსტა</span>
+          <span class="value mail">{SITE.email}</span>
+        </span>
+      </a>
+      <div class="social">
+        <a href={SITE.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </address>
+  </div>
+</section>
+
+<style>
+  .contact {
+    padding: 72px 20px 32px;
+  }
+  .panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--navy);
+    color: #fff;
+    border-radius: 28px;
+    padding: 56px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(600px 300px at 100% 0%, rgba(176, 38, 201, 0.25), transparent 60%);
+    pointer-events: none;
+  }
+  .info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .info .eyebrow {
+    color: var(--pink);
+  }
+  .owner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 8px;
+  }
+  .owner-title {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .owner-name {
+    font-size: 15px;
+    color: var(--on-dark-2);
+  }
+  .links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-style: normal;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+  }
+  .row:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+  }
+  .icon {
+    width: 44px;
+    height: 44px;
+    flex: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .icon-phone {
+    background: var(--magenta);
+  }
+  .icon-mail {
+    background: #fff;
+    color: var(--navy);
+    font-weight: 700;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+  .label {
+    font-size: 13px;
+    color: var(--on-dark-2);
+  }
+  .phone {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .mail {
+    font-size: 17px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
+  .social {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .social a {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .social a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+
+  @media (max-width: 559px) {
+    .contact {
+      padding: 32px 12px 24px;
+    }
+    .panel {
+      padding: 32px 22px;
+    }
+  }
+</style>

@@ -1,0 +1,135 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import PageHero from '../../../components/PageHero.astro';
+import Packages from '../../../components/Packages.astro';
+import PlaceLinks from '../../../components/PlaceLinks.astro';
+import ConnectSteps from '../../../components/ConnectSteps.astro';
+import Faq from '../../../components/Faq.astro';
+import Contact from '../../../components/Contact.astro';
+import Footer from '../../../components/Footer.astro';
+import {
+  MUNICIPALITIES,
+  REGION,
+  groupByCommunity,
+  municipalityUrl,
+  placesIn,
+  type Municipality,
+} from '../../../data/places';
+import { SITE } from '../../../data/site';
+import { HOME_FAQ } from '../../../data/faq';
+import { areaService, breadcrumbs, faqPage, type Crumb } from '../../../data/schema';
+
+export function getStaticPaths() {
+  return MUNICIPALITIES.map((m) => ({ params: { municipality: m.key }, props: { m } }));
+}
+
+interface Props {
+  m: Municipality;
+}
+
+const { m } = Astro.props;
+const list = placesIn(m.key);
+const groups = groupByCommunity(list);
+const url = municipalityUrl(m.key);
+const others = MUNICIPALITIES.filter((o) => o.key !== m.key);
+const sample = list
+  .slice(0, 6)
+  .map((p) => p.name)
+  .join(', ');
+
+const crumbs: Crumb[] = [
+  { name: 'მთავარი', href: '/' },
+  { name: 'დაფარვა', href: '/internet/' },
+  { name: m.full, href: url },
+];
+const faq = HOME_FAQ.slice(0, 4);
+---
+
+<Base
+  title={`ინტერნეტი ${m.loc} — ${list.length} სოფელი | NB Networks`}
+  description={`ინტერნეტის შემოყვანა ${m.loc}: ${sample} და სხვა სოფლები. სტაბილური ინტერნეტი 25–50 Mbps, WI-FI მონტაჟი. ☎ ${SITE.phoneDisplay}`}
+  schema={[breadcrumbs(crumbs), areaService(m.full, m.loc, url), faqPage(faq)]}
+>
+  <div class="page">
+    <Header />
+    <main>
+      <PageHero
+        crumbs={crumbs}
+        title={`ინტერნეტი ${m.loc}`}
+        lead={`ინტერნეტ პროვაიდერი NB Networks — ინტერნეტის შემოყვანა ${m.loc} (${REGION.name}). აირჩიეთ თქვენი სოფელი ქვემოთ მოცემული სიიდან.`}
+        note={`Internet in ${m.latin} municipality, ${REGION.latin}`}
+      />
+
+      <section class="villages container" aria-labelledby="villages-title">
+        <div class="section-head">
+          <span class="eyebrow">{list.length} დასახლება</span>
+          <h2 id="villages-title" class="h2">სოფლები {m.loc}</h2>
+        </div>
+        {
+          groups.map((g) => (
+            <div class="group">
+              <h3>{g.title ?? (groups.length > 1 ? 'ქალაქი, დაბები და სხვა დასახლებები' : m.full)}</h3>
+              <PlaceLinks places={g.places} />
+            </div>
+          ))
+        }
+      </section>
+
+      <Packages title={`ინტერნეტ პაკეტები ${m.loc}`} />
+      <ConnectSteps loc={m.loc} />
+      <Faq title="ხშირად დასმული კითხვები" items={faq} band />
+
+      <section class="villages container" aria-labelledby="others-title">
+        <h2 id="others-title" class="h2">ინტერნეტი სხვა მუნიციპალიტეტებში</h2>
+        <ul class="others">
+          {others.map((o) => <li><a href={municipalityUrl(o.key)}>ინტერნეტი {o.loc}</a></li>)}
+        </ul>
+      </section>
+
+      <Contact />
+    </main>
+    <Footer />
+  </div>
+</Base>
+
+<style>
+  .villages {
+    padding: var(--sec-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-2);
+  }
+  .others {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .others a {
+    display: flex;
+    padding: 14px 20px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid var(--line);
+    font-weight: 700;
+    color: var(--navy);
+  }
+  .others a:hover {
+    border-color: var(--magenta);
+    color: var(--magenta);
+  }
+</style>

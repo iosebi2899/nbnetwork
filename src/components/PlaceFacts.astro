@@ -1,0 +1,137 @@
+---
+import PlaceLinks from './PlaceLinks.astro';
+import {
+  BASE,
+  REGION,
+  distanceKm,
+  municipality,
+  municipalityUrl,
+  nearest,
+  type Place,
+} from '../data/places';
+
+interface Props {
+  place: Place;
+}
+
+const { place: p } = Astro.props;
+const m = municipality(p.municipality);
+const km = (a: Place, b: Place): number | null => (a.geo && b.geo ? Math.round(distanceKm(a.geo, b.geo)) : null);
+const fromBase = p === BASE ? 0 : km(p, BASE);
+const near = nearest(p, 10);
+const kind = { town: 'ქალაქი', daba: 'დაბა', village: 'სოფელი' }[p.kind];
+const mapUrl = p.geo ? `https://www.google.com/maps/search/?api=1&query=${p.geo[0]},${p.geo[1]}` : null;
+---
+
+<section class="facts container" aria-labelledby="facts-title">
+  <div class="section-head">
+    <span class="eyebrow">მდებარეობა</span>
+    <h2 id="facts-title" class="h2">{p.name} — {m.full}</h2>
+  </div>
+
+  <div class="grid">
+    <dl class="card">
+      <div><dt>დასახლება</dt><dd>{kind} {p.name}{p.alt && ` (ასევე: ${p.alt})`}</dd></div>
+      {p.community && <div><dt>თემი</dt><dd>{p.community}</dd></div>}
+      <div><dt>მუნიციპალიტეტი</dt><dd><a href={municipalityUrl(m.key)}>{m.full}</a></dd></div>
+      <div><dt>რეგიონი</dt><dd>{REGION.name}</dd></div>
+      {
+        fromBase !== null && fromBase > 0 && (
+          <div>
+            <dt>მანძილი ჩვენი ბაზიდან</dt>
+            <dd>
+              ≈ {fromBase} კმ ({BASE.name}დან, პირდაპირი ხაზით)
+            </dd>
+          </div>
+        )
+      }
+      {
+        mapUrl && (
+          <div>
+            <dt>რუკა</dt>
+            <dd>
+              <a href={mapUrl} rel="noopener" target="_blank">
+                {p.name} Google Maps-ზე
+              </a>
+            </dd>
+          </div>
+        )
+      }
+    </dl>
+
+    {
+      near.length > 0 && (
+        <div class="near">
+          <h3>ინტერნეტი ახლომდებარე სოფლებში</h3>
+          <p>
+            {p.geo ? `${p.name} — უახლოესი დასახლებები:` : `${p.community ?? m.full} — სხვა სოფლები:`}
+          </p>
+          <PlaceLinks
+            places={near}
+            meta={(o) => {
+              const d = km(p, o);
+              return d === null ? undefined : `${Math.max(d, 1)} კმ`;
+            }}
+          />
+        </div>
+      )
+    }
+  </div>
+</section>
+
+<style>
+  .facts {
+    padding: var(--sec-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+    gap: 16px;
+    align-items: start;
+  }
+  .card {
+    margin: 0;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 8px 28px;
+  }
+  .card div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .card div:last-child {
+    border-bottom: 0;
+  }
+  dt {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  dd {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+  }
+  .near {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .near p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--text-2);
+  }
+</style>

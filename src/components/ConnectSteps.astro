@@ -1,0 +1,94 @@
+---
+import { SITE, PAYNET_URL } from '../data/site';
+
+interface Props {
+  /** Locative place name, e.g. "ტონჩაში". */
+  loc: string;
+}
+const { loc } = Astro.props;
+---
+
+<section class="steps container" aria-labelledby="steps-title">
+  <div class="section-head">
+    <span class="eyebrow">როგორ ჩავრთოთ</span>
+    <h2 id="steps-title" class="h2">ინტერნეტის შემოყვანა {loc} — 3 ნაბიჯი</h2>
+  </div>
+  <ol class="grid">
+    <li class="card">
+      <span class="index">01</span>
+      <h3>დაგვირეკეთ</h3>
+      <p>
+        დარეკეთ <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a> ან მოგვწერეთ <a href={SITE.facebook}
+          >Facebook-ზე</a
+        >. გადავამოწმებთ დაფარვას თქვენს მისამართზე.
+      </p>
+    </li>
+    <li class="card">
+      <span class="index">02</span>
+      <h3>ინსტალაცია</h3>
+      <p>ტექნიკოსი მოვა, დაამონტაჟებს აპარატურას და WI-FI-ს, დააყენებს ქსელის სახელს და პაროლს.</p>
+    </li>
+    <li class="card">
+      <span class="index">03</span>
+      <h3>ისარგებლეთ</h3>
+      <p>
+        საფასური გადაიხადეთ PayNet-ის ტერმინალებში, ბალანსი შეამოწმეთ <a href={PAYNET_URL} rel="noopener"
+          >paynet.ge</a
+        >-ზე. მხარდაჭერა 24/7.
+      </p>
+    </li>
+  </ol>
+</section>
+
+<style>
+  .steps {
+    padding: var(--sec-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .index {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text-2);
+  }
+  a {
+    font-weight: 600;
+  }
+</style>
