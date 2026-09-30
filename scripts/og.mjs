@@ -17,7 +17,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
   </g>
   <text x="80" y="360" font-family="Arial, sans-serif" font-size="96" fill="#fff" letter-spacing="-2"><tspan font-weight="700">nb</tspan><tspan fill="#c9cde4">networks</tspan></text>
   <text x="80" y="440" font-family="Arial, sans-serif" font-size="36" fill="#e58cf5">WI-FI · Optic · Satellite · 24/7</text>
-  <text x="80" y="540" font-family="Arial, sans-serif" font-size="32" fill="#c9cde4">nbnetworks.ge · 599-298-456</text>
+  <text x="80" y="540" font-family="Arial, sans-serif" font-size="32" fill="#c9cde4">NB Networks · ☎ 599-298-456</text>
   <text x="1120" y="160" text-anchor="end" font-family="Arial, sans-serif" font-size="120" font-weight="700" fill="#fff">50<tspan font-size="40" fill="#c9cde4"> Mbps</tspan></text>
 </svg>`;
 

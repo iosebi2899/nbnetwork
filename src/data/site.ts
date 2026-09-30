@@ -1,7 +1,8 @@
 export const SITE = {
-  url: 'https://nbnetworks.ge',
+  /** From astro.config `site` (SITE_URL env), without trailing slash. */
+  url: import.meta.env.SITE.replace(/\/$/, ''),
   name: 'NB Networks',
-  title: 'ინტერნეტი დუშეთში — ინტერნეტ პროვაიდერი მცხეთა-მთიანეთში | NB Networks',
+  title: 'ინტერნეტ პროვაიდერი მცხეთა-მთიანეთში | NB Networks',
   description:
     'ინტერნეტის შემოყვანა დუშეთის, მცხეთის, თიანეთის და ყაზბეგის სოფლებში. სტაბილური ინტერნეტი 25–50 Mbps, 25 ლარიდან. WI-FI და ქსელის მონტაჟი, 24/7 მხარდაჭერა. ☎ 599-298-456',
   phone: '599298456',
