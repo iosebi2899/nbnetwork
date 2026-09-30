@@ -35,6 +35,12 @@ Every settlement in Mtskheta-Mtianeti gets its own page: `/internet/<municipalit
 - **Unique content per page:** each page carries its community, municipality, straight-line distance from the Chopórti base, a Google Maps link, the 10 nearest villages with distances, a Latin-script name and village-specific FAQ.
 - **Structured data (JSON-LD):** LocalBusiness, WebSite with SearchAction, BreadcrumbList, Service with areaServed and geo, and FAQPage.
 
+### Coverage map and search autocomplete
+
+- `/places.json` is a compact index of every place, generated at build time from `src/pages/places.json.ts`. The map and the search autocomplete both use it, and it is fetched only on search focus or when a map scrolls near.
+- The map (`CoverageMap.astro`) uses Leaflet with OpenStreetMap tiles. The Leaflet JS (about 44 KB gzipped) and CSS load only when a map is about to enter the viewport. It appears on the home coverage section, on `/internet/`, and on every village page (centered on that village). Wheel zoom and one-finger drag on phones stay off until the visitor taps or clicks the map, so the page scroll isn't hijacked.
+- OSM's public tiles are fine for a small local site, but under OSM's tile usage policy they are not meant for heavy traffic. If traffic grows, switch the `tileLayer` URL in `src/scripts/map-impl.ts` to a provider such as MapTiler or Stadia (both have free tiers).
+
 ### After deploying (required for location-based results)
 
 1. **Google Business Profile** (business.google.com). This is what makes Google show the business for "ინტერნეტი" or "internet provider near me" in Maps and the local pack. Create a service-area business with category *Internet service provider*, add the service areas (Dusheti, Mtskheta, Tianeti, Kazbegi municipalities), set the website to `https://nbnetworks.ge/`, and use the same phone number. Ask customers for reviews.
