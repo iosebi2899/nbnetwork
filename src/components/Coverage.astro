@@ -3,9 +3,15 @@ import PlaceSearch from './PlaceSearch.astro';
 import PlaceLinks from './PlaceLinks.astro';
 import CoverageMap from './CoverageMap.astro';
 import { MUNICIPALITIES, REGION, featured, municipalityUrl, placesIn } from '../data/places';
+
+interface Props {
+  /** White band background (alternates with neighbouring sections). */
+  band?: boolean;
+}
+const { band = false } = Astro.props;
 ---
 
-<section id="coverage" class="coverage anchor" aria-labelledby="coverage-title">
+<section id="coverage" class:list={['coverage', 'anchor', { band }]} aria-labelledby="coverage-title">
   <div class="container inner">
     <div class="section-head">
       <span class="eyebrow">დაფარვა</span>
@@ -40,6 +46,27 @@ import { MUNICIPALITIES, REGION, featured, municipalityUrl, placesIn } from '../
 </section>
 
 <style>
+  .band {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .band .card {
+    background: var(--bg);
+    border-color: transparent;
+  }
+  .band .card:hover {
+    background: #fff;
+    border-color: var(--navy);
+  }
+  .band .popular :global(a) {
+    background: var(--bg);
+    border-color: transparent;
+  }
+  .band .popular :global(a:hover) {
+    background: #fff;
+    border-color: var(--magenta);
+  }
   .inner {
     padding: var(--sec-pad);
     display: flex;
@@ -70,7 +97,8 @@ import { MUNICIPALITIES, REGION, featured, municipalityUrl, placesIn } from '../
     transition:
       transform var(--ease),
       box-shadow var(--ease),
-      border-color var(--ease);
+      border-color var(--ease),
+      background-color var(--ease);
   }
   .card:hover {
     color: var(--navy);
