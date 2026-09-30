@@ -1,5 +1,6 @@
 ---
 import PlaceLinks from './PlaceLinks.astro';
+import CoverageMap from './CoverageMap.astro';
 import {
   BASE,
   REGION,
@@ -77,6 +78,8 @@ const mapUrl = p.geo ? `https://www.google.com/maps/search/?api=1&query=${p.geo[
       )
     }
   </div>
+
+  {p.geo && <CoverageMap focus={p} title={`${p.name} რუკაზე`} />}
 </section>
 
 <style>

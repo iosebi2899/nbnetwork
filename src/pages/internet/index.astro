@@ -4,6 +4,7 @@ import Header from '../../components/Header.astro';
 import PageHero from '../../components/PageHero.astro';
 import PlaceSearch from '../../components/PlaceSearch.astro';
 import PlaceLinks from '../../components/PlaceLinks.astro';
+import CoverageMap from '../../components/CoverageMap.astro';
 import Contact from '../../components/Contact.astro';
 import Footer from '../../components/Footer.astro';
 import { MUNICIPALITIES, PLACES, REGION, municipalityUrl, placesIn } from '../../data/places';
@@ -36,6 +37,8 @@ const crumbs: Crumb[] = [
           <PlaceSearch live />
           <p class="count"><span data-count>{PLACES.length}</span> დასახლება</p>
         </div>
+
+        <CoverageMap />
 
         <p class="empty" data-empty hidden>
           ვერ მოიძებნა? დაგვირეკეთ <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a> — გადავამოწმებთ თქვენს დასახლებას.

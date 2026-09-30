@@ -1,17 +1,5 @@
 // Live filter for the coverage hub. Items carry data-place="<name latin alt>".
-const TR: Record<string, string> = {
-  ა: 'a', ბ: 'b', გ: 'g', დ: 'd', ე: 'e', ვ: 'v', ზ: 'z', თ: 't', ი: 'i', კ: 'k', ლ: 'l', მ: 'm', ნ: 'n', ო: 'o',
-  პ: 'p', ჟ: 'zh', რ: 'r', ს: 's', ტ: 't', უ: 'u', ფ: 'p', ქ: 'k', ღ: 'gh', ყ: 'q', შ: 'sh', ჩ: 'ch', ც: 'ts',
-  ძ: 'dz', წ: 'ts', ჭ: 'ch', ხ: 'kh', ჯ: 'j', ჰ: 'h',
-};
-
-// Drop common suffixes people type ("ტონჩაში", "dushetshi") so the base name still matches.
-const normalize = (s: string): string =>
-  s
-    .trim()
-    .toLowerCase()
-    .replace(/^ინტერნეტი\s+|^internet\s+/, '')
-    .replace(/(ში|shi)$/, '');
+import { normalizeQuery, toLatin } from './place-record';
 
 export function initFilter(): void {
   const form = document.querySelector<HTMLFormElement>('[data-place-search]');
@@ -24,8 +12,8 @@ export function initFilter(): void {
   const count = document.querySelector<HTMLElement>('[data-count]');
 
   const apply = (): void => {
-    const q = normalize(input.value);
-    const latin = [...q].map((c) => TR[c] ?? c).join('');
+    const q = normalizeQuery(input.value);
+    const latin = toLatin(q);
     let shown = 0;
     for (const el of items) {
       const key = el.dataset['place'] ?? '';
@@ -38,11 +26,8 @@ export function initFilter(): void {
     if (count) count.textContent = String(shown);
   };
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const first = items.find((el) => !el.hidden)?.querySelector('a');
-    if (first && items.filter((el) => !el.hidden).length === 1) first.click();
-  });
+  // With no autocomplete match the hub stays put and just shows the filtered list.
+  form.addEventListener('submit', (e) => e.preventDefault());
   input.addEventListener('input', () => {
     apply();
     const url = new URL(location.href);

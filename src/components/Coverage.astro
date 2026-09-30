@@ -1,6 +1,7 @@
 ---
 import PlaceSearch from './PlaceSearch.astro';
 import PlaceLinks from './PlaceLinks.astro';
+import CoverageMap from './CoverageMap.astro';
 import { MUNICIPALITIES, REGION, featured, municipalityUrl, placesIn } from '../data/places';
 ---
 
@@ -16,6 +17,8 @@ import { MUNICIPALITIES, REGION, featured, municipalityUrl, placesIn } from '../
     </div>
 
     <PlaceSearch />
+
+    <CoverageMap />
 
     <div class="grid">
       {

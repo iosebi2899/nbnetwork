@@ -1,0 +1,177 @@
+---
+import type { Place } from '../data/places';
+
+interface Props {
+  /** Village page: center and highlight this place. */
+  focus?: Place;
+  title?: string;
+}
+
+const { focus, title = 'დაფარვის რუკა' } = Astro.props;
+const focusData = focus?.geo ? JSON.stringify({ g: focus.geo, u: `/internet/${focus.municipality}/${focus.slug}/` }) : undefined;
+---
+
+<figure class="map-wrap" data-coverage-map data-focus={focusData}>
+  <div class="canvas" data-map-canvas role="region" aria-label={title}>
+    <div class="placeholder" data-map-placeholder>
+      <span class="spinner" aria-hidden="true"></span>
+      <span>რუკა იტვირთება…</span>
+    </div>
+    <p class="hint" data-map-hint hidden>შეეხეთ რუკას სამართავად</p>
+  </div>
+  <figcaption class="legend">
+    <span><i class="dot ok" aria-hidden="true"></i>დაფარვის ზონაში</span>
+    <span><i class="dot check" aria-hidden="true"></i>გადაამოწმეთ დაფარვა ტელეფონით</span>
+    <span><i class="dot base" aria-hidden="true"></i>NB Networks — ჭოპორტი</span>
+    {focus && <span><i class="dot focus" aria-hidden="true"></i>{focus.name}</span>}
+  </figcaption>
+</figure>
+
+<script>
+  import { initCoverageMaps } from '../scripts/map';
+  initCoverageMaps();
+</script>
+
+<style>
+  .map-wrap {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .canvas {
+    position: relative;
+    height: 460px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background:
+      radial-gradient(rgba(20, 26, 58, 0.06) 1px, transparent 1px) 0 0 / 18px 18px,
+      #eef0f6;
+    isolation: isolate;
+  }
+  .placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .spinner {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid var(--line);
+    border-top-color: var(--magenta);
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .hint {
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(20, 26, 58, 0.85);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .hint[hidden] {
+    display: none;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: 13px;
+    color: var(--text-2);
+  }
+  .legend span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px rgba(20, 26, 58, 0.2);
+  }
+  .dot.ok {
+    background: var(--magenta);
+  }
+  .dot.check {
+    background: #8a90b0;
+  }
+  .dot.base {
+    background: var(--navy);
+    box-shadow: 0 0 0 2px var(--pink);
+  }
+  .dot.focus {
+    background: var(--pink);
+    box-shadow: 0 0 0 2px var(--magenta);
+  }
+
+  /* Leaflet chrome, restyled to the site. */
+  .canvas :global(.leaflet-container) {
+    font-family: var(--font-sans);
+    background: #eef0f6;
+  }
+  .canvas :global(.leaflet-tile-pane) {
+    filter: saturate(0.55) contrast(0.95);
+  }
+  .canvas :global(.leaflet-popup-content-wrapper) {
+    border-radius: 14px;
+    box-shadow: 0 12px 32px rgba(20, 26, 58, 0.18);
+  }
+  .canvas :global(.leaflet-popup-content) {
+    margin: 12px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--navy);
+  }
+  .canvas :global(.map-pop strong) {
+    display: block;
+    font-size: 16px;
+  }
+  .canvas :global(.map-pop .muted) {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .canvas :global(.map-pop a) {
+    display: inline-block;
+    margin-top: 6px;
+    font-weight: 700;
+    color: var(--magenta);
+  }
+  .canvas :global(.leaflet-tooltip) {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0 6px 16px rgba(20, 26, 58, 0.16);
+  }
+  .canvas :global(.leaflet-bar a) {
+    color: var(--navy);
+  }
+
+  @media (max-width: 559px) {
+    .canvas {
+      height: 340px;
+    }
+  }
+</style>
